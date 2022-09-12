@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+div{
+max-width: 100px;
+}
+div > p{
+    display: none;
+    background-color: grey;
+    color:white;
+    padding: 5px;
+    
+}
+div:hover{
+    cursor: pointer;
+}
+div:hover > p {
+ display: block;
+ 
+ 
+}
+    

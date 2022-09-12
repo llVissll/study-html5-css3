@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(245, 245, 224);
+}
+h1{
+    
+    background-color: grey;
+    color: white;
+    width: 365px;
+    height: 241px;
+    margin: 50px auto 0px auto;
+    border: 10px dashed black;
+    outline: 10px solid rgb(255, 255, 255);
+    box-shadow: 20px 20px 60px black;
+    
+    
+    
+
+ 
+}
+a{
+    
+    padding: 2px;
+    border: 3px inset black;
+    
+    
+    
+}
+p{
+    
+    margin-top: 100px;
+    font: normal bolder 16px arial, Helvetica, sans-serif;
+
+}

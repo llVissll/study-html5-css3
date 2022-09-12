@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto&display=swap'); 
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+:root{
+    --Cor01: #5dcf8e;
+    --fonteNav: 'Bad Script', 'cursive';
+
+}
+ 
+body{
+    background-color: #EBE5C5;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #123a24, #5dcf8e);
+    color: white;
+    padding: 3px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px; 
+    box-shadow: 2px 2px 26px rgb(58, 58, 58);
+    padding-top: 32px;
+    
+
+   
+}header > p {
+    text-shadow: 2px 2px 26px rgba(58, 58, 58, 0.192);
+
+
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 3px 10px 3px 10px;
+    transition-duration: 1s;
+    text-decoration: none;
+    font-family: var(--fonteNav);
+    
+    
+
+
+}
+nav > a:hover{
+
+    background-color: #46ca86;
+    text-decoration: underline;
+    border-radius: 7px;
+    color: #123a24;
+    font-weight: bold;
+   
+}
+
+section{
+    background-color: white;
+    padding: 15px;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.418);
+    
+
+}
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8em;
+    text-shadow: 1px 3px 10px black;
+    font-style: italic;
+   
+}
+
+#subtit{
+    text-align: center;
+    color: rgb(206, 202, 202);
+}
+
+h2{
+    font-size: 3em;
+    margin-left: 10px;
+    color: #276946;
+    font-family: 'Permanent Marker', 'cursive';
+}
+
+h3{
+    padding-left: 10px;
+    font-family: 'fonte';
+    font-size: 1.5em;
+    margin-left: 10px;
+    color: #276946;
+    background-image: linear-gradient(to right, #b9fad7, white);
+}
+p{
+    
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Edu VIC WA NT Beginner', 'cursive';
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+
+#fotomeio{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    position: relative;
+    background-color: #123a24;
+    margin: 0px -15px;
+    padding: 20px;
+    
+
+}
+div.video > frame {
+   
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+
+
+article{
+
+    padding: 15px;
+    background-color: #a4e5c2;
+    border-radius: 10px;
+    margin-top: 45px;
+    box-shadow: 1px 1px 7px grey;
+    
+
+}
+h4{
+    background-color: #1A5C37;
+    color: white;
+    font-size: 1.5em;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    margin: -17px -16px;
+    padding-top: 7px;
+    text-indent: 15px;
+    
+
+    
+}
+article > ul{
+    columns: 2;
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.3em;
+    
+}
+article > p {
+    
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Edu VIC WA NT Beginner', 'cursive';
+    font-size: 1.2em;
+  
+}
+
+span{
+    font-weight: bold;
+
+}
+footer{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #153826;
+    color: white;
+    margin-block-end: 0em;
+    margin-top: 40px;
+    text-align: center;
+
+    
+}
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+footer > a:hover{
+    text-decoration: underline;
+
+}
+
+section a{
+    color: #123a24;
+    background-color: #a4e5c2;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px 6px;
+}
+section a::after{
+    content: '🔗';
+}
+section  a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+li::marker{
+    content: '✓';
+}

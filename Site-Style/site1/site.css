@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'rabisco';
+    src: url('fontes/Road_Rage.otf') format('opentype');
+}
+@font-face {
+    font-family: 'paragrafo';
+    src: url('fontes/Saudagar.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'natal';
+    src: url('fontes/Snowinter-Free-For-Personal-Use.otf') format('opentype'), 
+         url('fontes/Snowinter-Free-For-Personal-Use.ttf') format('truetype');
+}
+
+body{
+  background-image: linear-gradient(to right,#C9C8F5 10%,#8F8EAD  );
+  
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 10px #8F8EAD;
+    font-family: 'natal';
+    font-size: 3em;
+    
+}
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    padding: 30px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+}
+p{
+    font-family: 'paragrafo';
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 18px;
+    text-indent: 30px;
+}
+h2{
+    font-family: 'rabisco', 'sans-serif' ;
+    text-shadow: 5px 5px 10px #b1b0d6;
+
+}
+#paleta{
+    margin-top: 30px;
+    text-align: center;
+}
