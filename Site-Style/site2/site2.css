@@ -20,7 +20,6 @@ main{
     margin: auto;
     margin-top: 80px;
     padding: 30px;
-    min-width: 200px;
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
