@@ -60,6 +60,9 @@ nav > a:hover{
     font-weight: bold;
    
 }
+nav{
+    max-width: 500px;
+}
 
 section{
     background-color: white;
