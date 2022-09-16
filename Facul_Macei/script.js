@@ -1,4 +1,5 @@
 function calcular(){
+    
     let kml1 = document.getElementById('kmlitro')
     let kmp1 = document.getElementById('kmper')
     let kml = Number(kml1.value)
