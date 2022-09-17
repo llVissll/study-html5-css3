@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;   
+}
+
+h1{
+    
+    font-family: 'Passion One', 'cursive';
+    font-size: 10vw;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: -30px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header p{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+#container1{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    max-width: 100%;
+    padding: 30px;
+    
+}
+#container2{
+    font-size: 3.5vw;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    max-width: 100%;
+    padding: 30px;
+    
+}
+
+
+
+.conteudo1{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
+    background-color: white;
+    margin: -35px -30px 0px -30px;
+    line-height: 1em;
+    
+}
+
+.conteudo2{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    font-size: 3.5vw;
+    margin-top: 105px;
+    margin-bottom: 80px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 15px black;
+    max-width: 900px;
+    line-height: 1em;
+    
+    
+}
+.final{
+    background-color: white;
+    margin: -35px -30px -40px -30px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    
+    
+
+}
+article p{
+    
+    text-indent: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Sriracha', 'cursive';
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    
+}
