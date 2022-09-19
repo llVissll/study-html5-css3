@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
     <style>
+        body{
+            background-color: rgb(194, 225, 240);
+        }
+        h1{
+            text-align: center;
+        }
         table{
             width: 300px;
             border: 1px solid black;
             border-collapse: collapse;
+            margin: auto;
             
         }
         td{
@@ -19,12 +26,15 @@
         tr.cor{
             background-color: rgb(175, 175, 175);
         }
+        tr.normal{
+            background-color: white;
+        }
     </style>
 </head>
 <body>
     <h1>Criando tabela</h1>
     <table>
-        <tr>
+        <tr class="normal">
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -34,7 +44,7 @@
             <td>B2</td>
             <td>C2</td>
         </tr>
-        <tr>
+        <tr class="normal">
             <td>A3</td>
             <td>B3</td>
             <td>C3</td>
