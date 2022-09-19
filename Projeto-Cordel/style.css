@@ -45,9 +45,9 @@ header p{
 
 #container1{
     background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
+    background-size: cover;
     max-width: 100%;
     padding: 30px;
     
@@ -55,11 +55,12 @@ header p{
 #container2{
     font-size: 3.5vw;
     background-image: url('imagens/background002.jpg');
-    background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
+    background-size: cover;
     max-width: 100%;
     padding: 30px;
+    box-shadow: inset 4px 4px 10px 0px black;
     
 }
 
@@ -68,7 +69,8 @@ header p{
 .conteudo1{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    font-size: 3.5vw;
+    padding-left: 35px;
+    font-size: 3.2vw;
     background-color: white;
     margin: -35px -30px 0px -30px;
     line-height: 1em;
@@ -80,13 +82,13 @@ header p{
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.555);
     color: white;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     margin-top: 105px;
     margin-bottom: 80px;
     border-radius: 3px;
     box-shadow: 2px 2px 15px black;
-    max-width: 900px;
     line-height: 1em;
+
     
     
 }
@@ -95,6 +97,8 @@ header p{
     margin: -35px -30px -40px -30px;
     padding-bottom: 200px;
     padding-top: 100px;
+    line-height: 1em;
+    padding-left: 35px;
     
     
 
