@@ -22,16 +22,20 @@ section{
     max-width: 900px;
     margin: auto;
     background-color: white;
+    padding: 15px;
     
 }
 div{
     background-image: linear-gradient(to right, #91cfe2, transparent);
     max-width: 200px;
+    margin-left: -15px;
+    
 }
 #foto{
     margin-left: 110px;
     height: 190px;
-    max-width: 100%;
+    width: 170px;
+
    
     
     
