@@ -50,6 +50,12 @@ td.num{
     font-size: 1.2em;
 }
 
+footer{
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
 td.iron {
     background-color: #4A4142;
     color: rgb(170, 170, 170);
