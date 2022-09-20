@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand&family=Sriracha&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(214, 243, 255);
+    height: 80vh;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    margin: 50px 0px 20px 0px;
+}
+p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px 0px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+table{
+    background-color: white;
+    border-collapse: collapse;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    
+}
+thead{
+    background-color: grey;
+    color: white;
+    
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+}
+td.num{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+td.iron {
+    background-color: #4A4142;
+    color: rgb(170, 170, 170);
+}
+td.bronze{
+    background-color: #894C23;
+    
+}
+td.prata{
+    background-color: #9E9E9E;
+    
+}
+td.ouro{
+    background-color: #ffbb00;
+}
+td.plat{
+    background-color: #5e9777;
+}
+td.dima{
+    background-color: #7e80b6;
+}
+td.master{
+    background-image: linear-gradient(45deg, #d584f8, #7b3897 );
+}
+td.gm{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.466) , #ff0004 );
+}
+td.chall{
+   background-image: linear-gradient(45deg, rgb(123, 123, 197), yellow ,  rgb(123, 123, 197));
+    
+}
