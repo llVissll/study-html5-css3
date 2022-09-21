@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        col.cnome{
+            background-color: green;
+        }
+        th{
+            background-color: grey;
+            color: white;
+        }
+        col.cidade{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="cpeso">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Julio</td>
+                    <td>22</td>
+                    <td>134</td>
+                </tr>
+                <tr>
+                    <td>Julia</td>
+                    <td>22</td>
+                    <td>77</td>
+                </tr>
+                <tr id="destaque">
+                    <td>Renan</td>
+                    <td>17</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <td>Renata</td>
+                    <td>19</td>
+                    <td>72</td>
+                </tr>
+                
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
