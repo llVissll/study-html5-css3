@@ -27,7 +27,7 @@ a:hover{
     text-decoration: underline;
 }
 table{
-    
+    position: relative;
     background-color: white;
     border-collapse: collapse;
     margin: auto;
@@ -37,7 +37,8 @@ table{
 }
 thead{
     
-    
+    position: sticky;
+    top: -1px;
     background-color: grey;
     color: white;
     
