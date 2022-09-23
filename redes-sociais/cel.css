@@ -15,9 +15,6 @@ body{
     background-position: top center;    
 }
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     position: relative;
     height: 100vh;
     
@@ -41,7 +38,8 @@ iframe{
     height: 471px;
 }
 section#redes {
-    margin-top: 200px;
+    
+    text-align: center;
     
 }
 section#redes img{
