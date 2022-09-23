@@ -15,7 +15,11 @@ body{
     background-position: top center;    
 }
 main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     position: relative;
+    flex-wrap: wrap;
     height: 100vh;
     
 }
@@ -38,8 +42,7 @@ iframe{
     height: 471px;
 }
 section#redes {
-    
-    text-align: right;
+    margin-top: 200px;
     
 }
 section#redes img{
@@ -54,7 +57,7 @@ section#redes img{
 
 section#redes img:hover{
     border: 2px solid white;
-    transform: translate(-5px, 5px);
+    transform: translate(-5px, -5px);
     transition: transform 0.4s;
-    box-shadow: 12px -8px 10px rgba(0, 0, 0, 0.658);
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.658);
 }
