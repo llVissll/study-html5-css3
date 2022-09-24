@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black url('imagens/fundo2.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+ #img1{
+    position: absolute;
+    top: 2.5%;
+    left: 6%;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+ }
+ #img2{
+    position: absolute;
+    top: 2.5%;
+    left: 30%;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+
+ }
+ #img3{
+    position: absolute;
+    top: 2.5%;
+    left: 54%;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+
+ }
+ #img4{
+    position: absolute;
+    top: 2.5%;
+    left: 78%;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+
+ }
+ #img5{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+
+ }
