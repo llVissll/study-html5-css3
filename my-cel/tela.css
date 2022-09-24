@@ -55,3 +55,12 @@ body{
     height: 50px;
 
  }
+ #img6{
+   position: absolute;
+   top: 14.8%;
+   left: 29%;
+   border-radius: 30%;
+   width: 58px;
+   height: 58px;
+
+}
