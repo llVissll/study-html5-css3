@@ -93,7 +93,8 @@ img{
 }
 table{
     border-collapse: collapse;
-    width: 560px;
+    min-width: 120px;
+    max-width: 560px;
     height: 320px;
     margin-bottom: 20px;
     margin-top: 10px;
