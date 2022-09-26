@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    background-color: #630017;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #630017);
+}
+header h1{
+    padding: 20px 0px;
+}main{
+    
+    background-color: #991735;
+    color: white;
+    border: 1px solid white;
+    max-width: 1230px;
+    min-height: 420px;
+    max-height: 1200px;
+    margin: 100px auto 0px auto;
+}
+div#grp{
+    text-align: center;
+    background-color: #991735;
+    color: white;
+    border: 1px solid white;
+    max-width: 1230px;
+    margin: auto;
+}
+section.conteudo1{
+    display: flex;
+ 
+}
+div#container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    overflow-x: auto;
+    justify-content: space-around;
+}
+div#palpites{
+    display: block;
+    margin-top: 10px;
+    min-width: 513px;
+    max-width: 600px;
+
+    
+}
+.data{
+    background-color: white;
+    color: black;
+    padding: 7.5px;
+    width: 60px;
+    height: 35px;
+    font-weight: bold;
+    
+}
+.pais{
+    background-color: beige;
+    color: #991735;
+    font-weight: bold;
+    
+    padding-top: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.3em;
+}
+img{
+    width: 70px;
+    height: 50px;
+    margin: 0px 5px;
+    
+    
+}
+.inp{
+    width: 40px;
+    height: 45px;
+    margin: 0px 3px;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+.versus{
+    margin-top: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 560px;
+    height: 320px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+tr , td , th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+th#titulo{
+    background-color: darkblue;
+    
+    
+    
+}
+tr#linha1{
+    background-color: white;
+    color: grey;
+}
+td{
+    background-color: beige;
+    color: black;
+}
+td.pontos{
+    font-weight: bold;
+}
+th.tpais{
+    background-color: beige;
+    color: #991735;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer:hover{
+    text-decoration: underline;
+    
+}
+div#voltar{
+    color: white;
+    max-width: 1230px;
+    text-align: left;
+    margin-left: 290px;
+    font-size: 1.3em;
+    margin: 20px auto;
+}
+div#voltar a{
+    color: white;
+    text-decoration: none;
+}
+div#voltar a:hover{
+    text-decoration: underline;
+}
+
