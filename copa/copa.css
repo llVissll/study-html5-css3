@@ -48,7 +48,7 @@ div#container{
 div#palpites{
     display: block;
     margin-top: 10px;
-    min-width: 200px;
+    min-width: 50px;
     max-width: 600px;
 
     
