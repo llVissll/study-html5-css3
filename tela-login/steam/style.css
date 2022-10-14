@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('foto-fundo.png');
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 470px;
+    background-color: #231F20;
+    border-radius: 2px;
+
+}
+img{
+    position: relative;
+    top: 1%;
+    left: 3%;
+    width: 200px;
+    margin-bottom: 15px;
+    
+}
+input.inp{
+    width: 88%;
+    height: 37px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    background-color: #32353C;
+    border: none;
+    outline: none;
+    color: white;  
+    text-indent: 13px; 
+}
+input.inp:hover{
+    background-color: #3a3c42;
+}
+label#inicio{
+    color: #3883c5;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-left: 40px;
+    
+    
+}
+label#sen{
+    color: rgb(158, 156, 156);
+    margin-left: 40px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+input#lembre{
+    margin-left: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+    
+    
+}
+label#check{
+    
+    color: rgb(158, 156, 156);
+    font-size: 0.8em;
+}
+#botao{
+    background-image: linear-gradient(45deg, #07BCFF, #2E74FB );
+    width: 280px;
+    height: 50px;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 2px;
+    margin: 30px 0px 50px 208px
+}
+#botao:hover{
+    background-image: linear-gradient(45deg, #46cafa, #2E74FB );
+    cursor: pointer;
+}
+a{
+    color: rgb(158, 156, 156);
+    font-weight: bold;
+}
+a:hover{
+   color: rgb(192, 190, 190);
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    color: rgb(158, 156, 156);
+    font-weight: bold;
+    font-size: 0.8em;
+    
+}
+div#fechar{
+    color: white;
+    font-size: 1.2em;
+    text-align: right;
+    margin-right: 6px;
+    padding: 10px;
+    
+}
+div#fechar > a{
+    color: white;
+    text-decoration: none;
+}
+

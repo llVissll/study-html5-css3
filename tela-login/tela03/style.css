@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #5E2582;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section{
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.664);
+}
+div#imagem{
+    display: block;
+    background-image: url('imagens/foto-capa01.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+div#formulario{
+    display: block;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 5px;
+   
+}
+p{
+    font-size: 0.8em;
+    padding-bottom: 5px;
+    
+}
+
+
+
+div.campo{
+    background-color: #5E2582;
+    margin: 5px 0px;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+}
+span#user, span#key{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    
+}
+input#login, input#senha{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 42px);
+    transform: translateY(-12px);
+    height: 90%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    outline: none;
+}
+form > input[type=submit]{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+    background-color: #50adaa;
+    color: white;
+}
+#botao1:hover{
+    background-color: #2D6462;
+    cursor: pointer;
+}
+
+#botao2{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #50adaa;
+    margin-top: 10px;
+    background-color: white;
+    color: #50adaa;
+}
+#botao2:hover{
+    background-color: #2D6462;
+    cursor: pointer;
+    color: white;
+}
