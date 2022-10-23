@@ -1,0 +1,53 @@
+@media screen and (min-width: 769px) and (max-width:992px){
+    main{
+        width: 750px;
+        height: 350px;
+    }
+    div#img{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+    div#formulario{
+        float: right;
+        width: 60%;
+
+    }
+    img{
+        left: 65%;
+
+    }
+}
+p{
+    margin-right: 28px;
+    margin-top: 20px;
+}
+.inputlogin{
+    width: 82%;
+}
+
+@media screen and (min-width: 993px){
+    main{
+        width: 975px;
+        height: 350px;
+    }
+    div#img{
+        float: right;
+        height: 100%;
+        width: 45%;
+    }
+    div#formulario{
+        float: left;
+        width: 55%;
+
+    }
+    img{
+        left: 24%;
+
+    }
+    p{
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    
+}
