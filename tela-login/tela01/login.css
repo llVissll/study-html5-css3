@@ -78,6 +78,7 @@ input#botao{
 p{
     text-align: center;
     margin-top: 8px;
+    margin-left: 30px;
     color: white;
     font-size: 0.8em;
 }
