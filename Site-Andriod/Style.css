@@ -13,6 +13,7 @@
 
 }
 
+
 body{
     background-color: #EBE5C5;
     margin-block-start: 0em;
@@ -37,8 +38,22 @@ header{
 
 
 }
-
+#menuzinho{
+    background-color: rgb(0, 20, 3);
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+nav{
+    display: none;
+}
 nav > a {
+    display: block;
     color: rgb(255, 255, 255);
     font-size: 1.3em;
     cursor: pointer;
@@ -46,10 +61,10 @@ nav > a {
     transition-duration: 1s;
     text-decoration: none;
     font-family: var(--fonteNav);
-    
-    
-
-
+    text-align: center;
+    border: 1px solid rgba(34, 49, 38, 0.308);
+    margin-left: -3px;
+    margin-right: -3px;
 }
 nav > a:hover{
 
@@ -124,13 +139,13 @@ p{
 div.video{
     position: relative;
     background-color: #123a24;
-    margin: 0px -15px;
-    padding: 20px;
-    
+    margin: 0px -15px 30px -15px;
+    padding: 10px;
+    padding-bottom: 57%;
 
 }
-div.video > frame {
-   
+div.video > iframe {
+   position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;

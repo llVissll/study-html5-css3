@@ -1,0 +1,14 @@
+@media screen and (min-width: 769px) {
+    nav{
+        display: flex;
+        
+    }
+    nav > a{
+        margin-left: 10px;
+        border: none;
+    }
+    #menuzinho{
+        display: none;
+    }
+    
+}
