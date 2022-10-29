@@ -70,6 +70,7 @@ div#menu-bar{
 div#menu-bar::-webkit-scrollbar{
     background-color: black;
     width: 3px;
+    height: 0px;
 }
 div.nav{
     padding: 10px;
