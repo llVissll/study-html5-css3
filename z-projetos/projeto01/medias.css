@@ -1,0 +1,32 @@
+@media screen and (min-width: 769px) {
+    header{
+        width: 802px;
+        margin: auto;
+    }
+    menu{
+        display: grid;
+        grid-template-columns: repeat(4, 140px);
+        justify-content: center;
+        border: 1px solid rgb(49, 49, 49);
+        background-color: black;
+        width: 800px;
+        margin: auto;
+        
+    }
+    menu > nav{
+        border:none;
+        margin-top: 5px;
+        
+    }
+    #menu{
+        display: none;
+    }
+    #fechar{
+        display: none;
+    }
+    main{
+        max-width: 780px;
+    }
+    
+    
+}

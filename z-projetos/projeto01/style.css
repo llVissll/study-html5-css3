@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(177, 177, 177);
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);
+    
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+div#logo{
+    background-image: url('imagens/pexels-frank-cone-2235130\ \(1\).jpg');
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    background-position: left center;
+    margin-left: 10px;
+}
+
+.material-icons{
+    color: white;
+    font-size: 2em;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+.material-icons:hover{
+    border-radius: 50%;
+    background-color: darkgrey;
+    
+    
+}
+
+menu{
+    display: none;
+    
+}
+
+menu > nav{
+    padding: 10px;
+    background-color: black;
+    border: 1px solid rgb(61, 61, 61);
+    margin: auto;
+    text-align: center;
+    font-size: 1.4em;
+    
+}
+menu > nav:hover{
+    cursor: pointer;
+    background-color: rgb(36, 36, 36);
+}
+menu > nav > a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+main{
+    max-width: 415px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px  26px rgba(0, 0, 0, 0.719);
+}
+main > section > h1 {
+    font-size: 3em;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 10px;
+}
+p{
+    font: normal 1em arial;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}

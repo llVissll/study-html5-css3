@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 206, 206);
+    
+}
+.container{
+    display: flex;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    height: 120px;
+    align-items: center;
+    font-size: 1.3em;
+    position: relative;
+}
+.menu-logo{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+menu{
+    display: flex;
+    width: 72%;
+    justify-content: end;
+    
+}
+span{
+    color: white;
+}
+header > div.menu-logo > a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li {
+    color: white;
+    padding: 10px;
+
+}
+li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+div#menu-bar{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    width: 150px;
+    height: 92vh;
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(58, 58, 58);
+}
+div.nav{
+    padding: 10px;
+    transition-duration: .6s;
+    display: flex;
+    justify-content: space-between;
+}
+div.nav > p{
+    margin-right: 20px;
+}
+div.nav:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#menuzinho{
+    cursor: pointer;
+}
+div.nav > span{
+    margin-left: 20px;
+}
+
+
+main{
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.risco{
+     margin-bottom: 20px;
+}
+#bibli, #ytb-msc{
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 20px;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#video{
+margin-right: 20px;
+}
+#side > div{
+    margin-bottom:20px;
+    
+}
+h3{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#icones{
+    max-width: 53.5px;
+    height: 105vh;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    
+}
+#icones > span{
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+#icones > span:hover{
+    background-color: grey;
+}
+.logo{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+@media screen and (max-width: 1000px){
+    #icones{
+        display: none;
+    }
+}
+@media  screen and (max-width: 750px) {
+
+               /*Celular*/
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    #side{
+        display: flex;
+        overflow: scroll;
+        margin-top: 20px;
+        
+       
+        
+    }
+    #side> div{
+        flex: 0 0 200px;
+        margin-right: 20px;
+    }
+    div.nav > p{
+        margin-right: 0px;
+        font-size: 0.7em;
+    }
+    div.nav > span , img{
+        margin-left: 0px;
+    }
+   h1{
+    font-size: 1.6em;
+   }
+   h2{
+    font-size: 1.3em;
+   }
+    
+}
+
+@media screen and (min-width: 769px) {
+    div#menu-bar{
+        width: 220px;
+    }
+    div#menu-bar{
+        height: 105vh;
+        
+    }
+    div.nav > img{
+        margin-left: 20px;
+    }
+    
+    
+}
+@media screen and (min-width: 900px){
+    .menu-logo{
+        width: 19%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .menu-logo{
+        width: 13%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .menu-logo{
+        width: 11%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
