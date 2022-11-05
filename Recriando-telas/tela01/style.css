@@ -200,6 +200,19 @@ header a{
         font-size: 1em;
         text-align: justify;
     }
+    .divJogos{
+        width: 170px;
+        height: 60px;
+        background-color: #CD2653;
+        text-align: center;
+        margin-left: 10px;
+    }
+    div.dbcr{
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (min-width: 651px) and (max-width: 880px) {
     
