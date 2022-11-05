@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+:root{
+    --font:'Inter', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 120px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+#menu{
+    display: flex;
+    list-style: none;
+}
+#menu li{
+    color: #CD2653;
+    font-size: 1.5em;
+    padding: 10px;
+}
+#menu li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+main{
+    background-color: #2E2E2E;
+}
+section#jogos{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.divJogos{
+    width: 200px;
+    height: 70px;
+    background-color: #CD2653;
+    text-align: center;
+    margin-left: 10px;
+}
+div.dbcr{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divJogos a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em; 
+}
+.divJogos a:hover{
+    text-decoration: underline;
+}
+
+section#escrita{
+    height: 488.9px;
+}
+
+div#title{
+    width: 70vh;
+    margin: 0 auto;
+}
+section#escrita h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+
+}
+div#parag{
+    width: 90vh;
+    margin: 20px auto;
+}
+section#escrita p{
+    color: white;
+    font-size: 1em;
+}
+
+div#not{
+    background-color: #CD2653;
+    width: 270px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+div#not a{
+    color: white;
+    text-decoration: none;
+}
+div#not a:hover{
+    text-decoration: underline;
+}
+
+div#center{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#close-bar{
+    display: none;
+}
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 650px) {
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        color: white;
+        margin-right: 20px;
+        border: none;
+        padding: 10px;
+    }
+    #btn-mobile:hover{
+        cursor: pointer;
+    }
+    .material-icons{
+        font-size: 2em;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 120px;
+        left: 0;
+        background-color: #1E1E1E;
+        height: 0;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: 1s;
+        
+    }
+    
+    nav.active #menu{
+         visibility: visible;
+         height: calc(35vh - 120px);
+         
+    }
+
+    nav.active #menu-bar{
+        display: none;
+    }
+    nav.active #close-bar{
+        display: block;
+    }
+    #menu li{
+       margin: 0px 0px 5px 10px;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 880px) {
+    header a{
+        font-size: 1.5em;
+    }
+    div#title{
+        width: 350px;
+        margin: 0 auto;
+    }
+    section#escrita h1{
+        font-size: 2em;
+    
+    }
+
+    div#parag{
+        width: 430px;
+        
+    }
+    section#escrita p{
+        font-size: 1em;
+        text-align: justify;
+    }
+}
