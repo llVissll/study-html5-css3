@@ -164,7 +164,7 @@ div#center{
     
     nav.active #menu{
          visibility: visible;
-         height: calc(35vh - 120px);
+         height: calc(300px - 120px);
          
     }
 
