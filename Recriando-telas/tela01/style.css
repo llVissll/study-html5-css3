@@ -14,7 +14,7 @@ body{
     height: 100vh;
 }
 header{
-    width: 100%;
+    width: 100vw;
     height: 120px;
     background-color: #1E1E1E;
     display: flex;
@@ -51,7 +51,7 @@ header a:hover{
 
 main{
     background-color: #2E2E2E;
-    width: 100%;
+    width: 100vw;
 }
 section#jogos{
     display: flex;
@@ -136,9 +136,7 @@ div#center{
 /* Media Query */
 
 @media screen and (max-width: 650px) {
-    body{
-        width: 100vw;
-    }
+    
     #btn-mobile{
         display: block;
         background-color: transparent;
