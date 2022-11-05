@@ -136,6 +136,9 @@ div#center{
 /* Media Query */
 
 @media screen and (max-width: 650px) {
+    body{
+        width: 100vw;
+    }
     #btn-mobile{
         display: block;
         background-color: transparent;
