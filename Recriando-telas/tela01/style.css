@@ -136,7 +136,6 @@ div#center{
 /* Media Query */
 
 @media screen and (max-width: 650px) {
-    
     #btn-mobile{
         display: block;
         background-color: transparent;
@@ -194,7 +193,7 @@ header a{
     }
 
     div#parag{
-        width: 430px;
+        width: 320px;
         
     }
     section#escrita p{
@@ -202,11 +201,15 @@ header a{
         text-align: justify;
     }
     .divJogos{
-        width: 170px;
+        width: 130px;
         height: 60px;
         background-color: #CD2653;
         text-align: center;
         margin-left: 10px;
+    }
+    ::-webkit-scrollbar{
+      width: 0;
+      height: 0;
     }
     div.dbcr{
         height: 60px;
