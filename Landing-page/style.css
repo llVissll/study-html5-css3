@@ -186,9 +186,13 @@ nav.active #lista{
     }
 
     nav.active #menu{
-        
+        overflow: auto;
         height: calc(100vh - 100px);
         visibility: visible;
+    }
+    ::-webkit-scrollbar{
+        background-color: black;
+        width: 10px;
     }
     
     #menu li{
