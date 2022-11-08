@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle, white, black); /* 2200 / 1175 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+   
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.692);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 a{
+    margin-left: 50px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#menu{
+    margin-right: 50px;
+    display: flex;
+    color: white;
+    list-style: none;
+    font-size: 2em;
+}
+button#jogos{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+}
+#jogos:hover{
+    cursor: pointer;
+}
+#menu li{
+    padding: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#menu li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#botao-mobile{
+    display: none;
+}
+#botao-mobile:hover{
+    cursor: pointer;
+    
+}
+#close-bar{
+    display: none;
+}
+
+#lista{
+    display: block;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+    font-size: 1.7em;
+    position: absolute;
+    height: 0px;
+    top: 130px;
+    right: 200px;
+    width: 265px;
+    text-align: center;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 1s;
+}
+
+
+
+nav.active #lista{
+    height: 209px;
+    display: block;
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+#lista li{
+   list-style: none;
+   padding: 8px;
+}
+
+ #lista li:hover{
+    background-color: rgb(31, 31, 31);
+    cursor: pointer;
+}
+
+#game{
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+   h1 a{
+    font-size: 1.3em;
+   } 
+   #menu li{
+    font-size: .9em;
+   }
+
+   nav.active #lista{
+    display: block;
+    visibility: visible;
+    right: 160px;
+    width: 220px;
+    font-size: 1.3em;
+    height: 177px;
+    position: absolute;
+   }
+
+   #lista{
+    display: block;
+    position: absolute;
+    height: 0px;
+    font-size: 1.3em;
+    top: 130px;
+    right: 160px;
+    width: 220px;
+    text-align: center;
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 1s;
+}
+   
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    #game1{
+        display: none;
+    }
+    #game{
+        display: block;
+    }
+    nav.active #lista{
+        display: none;
+    }
+    header{
+        height: 100px;
+    }
+    #botao-mobile{
+        display: block;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        color: white;
+        margin-right: 50px;
+    }
+    #botao-mobile span{
+        font-size: 1.9em;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        height: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.692);
+        transition: 1.4s;
+        visibility: hidden;
+        overflow-y: hidden;
+        
+    }
+
+    nav.active #menu{
+        
+        height: calc(100vh - 100px);
+        visibility: visible;
+    }
+    
+    #menu li{
+        padding: 1rem 0rem;
+        margin: 0rem 1rem;
+        border-bottom: 2px solid black;
+        text-indent: 20px;
+        font-size: .8em;
+    }
+    nav.active #menu-bar{
+        display: none;
+    }
+    nav.active #close-bar{
+        display: block;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
