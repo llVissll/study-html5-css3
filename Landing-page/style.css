@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
-
-body{
+:root{
+    --fontTittle: 'Kaushan Script', cursive;
+    --fontTexto: 'Quicksand', sans-serif;
+}
+body {
     width: 100vw;
     height: 100vh;
     background-image: radial-gradient(circle, white, black); /* 2200 / 1175 */
@@ -14,7 +18,9 @@ body{
     background-position: center center;
    
 }
-
+::-webkit-scrollbar{
+    width: 0;
+}
 header{
     width: 100%;
     height: 130px;
@@ -23,8 +29,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+header h1{
+    width: 30%;
+    text-align: center;
+}
 h1 a{
-    margin-left: 50px;
     color: white;
     font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -87,6 +96,7 @@ button#jogos{
     visibility: hidden;
     overflow-y: hidden;
     transition: 1s;
+    
 }
 
 
@@ -95,7 +105,8 @@ nav.active #lista{
     height: 209px;
     display: block;
     visibility: visible;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgb(43, 43, 43);
+    overflow: auto;
 }
 #lista li{
    list-style: none;
@@ -103,7 +114,7 @@ nav.active #lista{
 }
 
  #lista li:hover{
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(19, 19, 19);
     cursor: pointer;
 }
 
@@ -111,7 +122,133 @@ nav.active #lista{
     display: none;
 }
 
-@media screen and (max-width: 850px) {
+/* introdução do site */
+
+main{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+
+section#int{
+    background-color: black;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    
+}
+div#foto{
+    width: 70%;
+    margin-top: 100px;
+}
+div#cont{
+    display: flex;
+    margin: auto;
+}
+div#textin{
+    padding: 10px;
+    margin-bottom: 150px;
+    width: 700px;
+}
+section#int h1{
+    text-indent: 20px;
+    color: white;
+    font-size: 3em;
+    font-family: var(--fontTittle);
+    text-align: center;
+    margin-bottom: 20px;
+}
+section#int p{
+    color: white;
+    font-family: var(--fontTexto);
+    font-size: 1.5em;
+    text-align: center;
+    
+    
+}
+section#conteudo1{
+    max-width: 100%;
+    height: 600px;
+}
+
+/* RODAPÉ */
+footer{
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 1101px) {
+    div#foto{
+        text-align: right;
+    }
+    div#container{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    article{
+        margin-top: 30px;
+    }
+    article h2{
+        text-align: center;
+        font-family: var(--fontTittle);
+        font-size: 2.5em;
+        
+    }
+    article p{
+        margin-top: 10px;
+        text-align: justify;
+        font-family: var(--fontTexto);
+        font-weight: 600;
+        font-size: 1.3em;
+    
+    }
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+
+    div#foto{
+        text-align: right;
+    }
+    div#container{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: space-around;
+    }
+    article{
+        margin-top: 30px;
+    }
+    article h2{
+        text-align: center;
+        font-family: var(--fontTittle);
+        
+    }
+    article p{
+        margin-top: 10px;
+        text-align: justify;
+        font-family: var(--fontTexto);
+        font-weight: 600;
+    
+    }
+}
+
+
+
+
+@media screen and (max-width: 899px) {
    h1 a{
     font-size: 1.3em;
    } 
@@ -127,9 +264,11 @@ nav.active #lista{
     font-size: 1.3em;
     height: 177px;
     position: absolute;
+    
    }
 
    #lista{
+    
     display: block;
     position: absolute;
     height: 0px;
@@ -142,10 +281,52 @@ nav.active #lista{
     overflow-y: hidden;
     transition: 1s;
 }
+div#foto{
+       
+    width: 40%;
+}
+
+div#textin{
+    padding: 10px;
+    margin-bottom: 90px;
+    width: 50%;
    
+}
+section#int h1{
+    color: white;
+    font-size: 2.4em;
+    font-family: var(--fontTittle);
+    text-align: center;
+    
+}
+section#int p{
+    color: white;
+    font-family: var(--fontTexto);
+    font-size: 1.1em;
     
 }
 
+div#container{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: space-around;
+}
+article{
+    margin-top: 30px;
+}
+article h2{
+    text-align: center;
+    font-family: var(--fontTittle);
+    
+}
+article p{
+    margin-top: 10px;
+    text-align: justify;
+    font-family: var(--fontTexto);
+    font-weight: 600;
+
+}
+}
 
 @media screen and (max-width: 700px) {
     #game1{
@@ -178,21 +359,18 @@ nav.active #lista{
         left: 0;
         height: 0;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.692);
+        background-color: rgb(25, 25, 25);
         transition: 1.4s;
         visibility: hidden;
         overflow-y: hidden;
-        
+          
     }
+    
 
     nav.active #menu{
         overflow: auto;
         height: calc(100vh - 100px);
         visibility: visible;
-    }
-    ::-webkit-scrollbar{
-        background-color: black;
-        width: 10px;
     }
     
     #menu li{
@@ -211,11 +389,65 @@ nav.active #lista{
     h1{
         font-size: 1.5em;
     }
-    
+    div#foto{
+       
+        width: 40%;
+    }
+    section#int{
+        height: 400px;
+    }
+    div#textin{
+        padding: 10px;
+        margin-bottom: 90px;
+        width: 50%;
+       
+    }
+    section#int h1{
+        color: white;
+        font-size: 1.6em;
+        font-family: var(--fontTittle);
+        text-align: center;
+        
+    }
+    section#int p{
+        color: white;
+        font-family: var(--fontTexto);
+        font-size: .9em;
+        
+    }
+    div#container{
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: space-around;
+    }
+    article{
+        margin-top: 30px;
+    }
+    article h2{
+        text-align: center;
+        font-family: var(--fontTittle);
+        
+    }
+    article p{
+        margin-top: 10px;
+        text-align: justify;
+        font-family: var(--fontTexto);
+        font-weight: 600;
+    }
+    footer{
+        background-color: black;
+        font-weight: bolder;
+        color: white;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
 }
-
-
-
 
 
 
