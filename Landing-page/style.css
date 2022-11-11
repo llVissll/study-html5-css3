@@ -59,11 +59,18 @@ button#jogos{
 #jogos:hover{
     cursor: pointer;
 }
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
 #menu li{
     padding: 10px;
     font-family: 'Patrick Hand', cursive;
     font-style: italic;
     font-size: 1.2em;
+    text-decoration: none;
+    color: white;
 }
 
 #menu li:hover{
@@ -98,8 +105,17 @@ button#jogos{
     transition: 1s;
     
 }
+#lista li{
+    color: white;
+    text-decoration: none;
+}
+#lista a{
+    text-decoration: none;
+}
 
-
+#link::after{
+    content: '🔗';
+}
 
 nav.active #lista{
     height: 209px;
@@ -172,9 +188,30 @@ section#int p{
 }
 section#conteudo1{
     max-width: 100%;
-    height: 600px;
+    height: auto;
+}
+p#center{
+    text-align: center;
+    font-style: italic;
+}
+p#brinks{
+    text-align: right;
+    font-size: 1.1em;
+    margin-right: 70px;
+}
+article > p > a{
+    text-decoration: none;
+    color: blue;
+    
 }
 
+article > p > a:hover{
+    text-decoration: underline;
+}
+
+div#FlorkPaz{
+    margin-top: 30px;
+}
 /* RODAPÉ */
 footer{
     background-color: black;
@@ -188,6 +225,10 @@ footer{
     justify-content: space-around;
 }
 
+.baixo{
+    margin-bottom: 50px;
+}
+
 @media screen and (min-width: 1101px) {
     div#foto{
         text-align: right;
@@ -197,6 +238,8 @@ footer{
         grid-template-columns: 500px 500px;
         justify-content: space-evenly;
         align-items: center;
+        
+        
     }
     article{
         margin-top: 30px;
@@ -214,6 +257,9 @@ footer{
         font-weight: 600;
         font-size: 1.3em;
     
+    }
+    #link::after{
+        content: '🔗 ';
     }
     
 }
@@ -243,12 +289,26 @@ footer{
         font-weight: 600;
     
     }
+    p#brinks{
+        text-align: right;
+        font-size: .9em;
+        margin-right: 70px;
+    }
+    div#FlorkPaz{
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 300px;
+        
+    }
+    #link::after{
+        content: '🔗 ';
+    }
 }
 
 
 
 
-@media screen and (max-width: 899px) {
+@media screen and (min-width: 701px) and (max-width: 899px) {
    h1 a{
     font-size: 1.3em;
    } 
@@ -325,6 +385,14 @@ article p{
     font-family: var(--fontTexto);
     font-weight: 600;
 
+}
+p#brinks{
+    text-align: right;
+    font-size: .8em;
+    margin-right: 70px;
+}
+div#FlorkPaz{
+    margin-top: -20px;
 }
 }
 
@@ -440,13 +508,27 @@ article p{
         color: white;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
-
+    p#brinks{
+        text-align: right;
+        font-size: .8em;
+        margin-right: 70px;
+    }
+    div#FlorkPaz{
+        margin: 30px auto;
+        width: 200px;
+    }
+    .baixo{
+        margin-bottom: 0px;
+    }
+    header h1{
+        width: 50%;
+        text-align: center;
+    }
 }
 
 
