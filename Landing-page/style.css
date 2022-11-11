@@ -392,7 +392,7 @@ p#brinks{
     margin-right: 70px;
 }
 div#FlorkPaz{
-    margin-top: -20px;
+    margin-top: 50px;
 }
 }
 
@@ -454,6 +454,7 @@ div#FlorkPaz{
     nav.active #close-bar{
         display: block;
     }
+    
     h1{
         font-size: 1.5em;
     }
