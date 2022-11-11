@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+
+main h1{
+    font-size: 3em;
+    text-align: center;
+}
