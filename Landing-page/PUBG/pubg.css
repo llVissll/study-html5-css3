@@ -22,3 +22,32 @@ main h1{
     font-size: 3em;
     text-align: center;
 }
+@media screen and (max-width: 700px) {
+    nav.active #menu{
+        display: none;
+    }
+    nav.active #lista{
+        display: block;
+    }
+    #lista{
+        display: block;
+        color: white;
+        font-family: 'Patrick Hand', cursive;
+        font-style: italic;
+        font-size: 1.7em;
+        position: absolute;
+        height: 0px;
+        top: 100px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: 1s;
+        
+    }
+    #lista li:hover{
+        background-color: black;
+    }
+}

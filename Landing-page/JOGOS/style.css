@@ -22,3 +22,11 @@ main h1{
     font-size: 3em;
     text-align: center;
 }
+@media screen and (min-width: 701px) {
+    header h1{
+        font-size: 1.5em;
+    }
+    #menu > a > li{
+        font-size: .5em;
+    }
+}

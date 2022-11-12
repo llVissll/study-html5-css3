@@ -45,6 +45,7 @@ main h1{
 div#container{
     display: flex;
     height: calc(100vh - 160px);
+    
 }
 
 section#preto{
@@ -218,3 +219,8 @@ section#branco article{
         overflow: auto;
     }
 } 
+@media screen and (min-width: 1101px) {
+    section#branco{
+        overflow: auto;
+    }
+}
