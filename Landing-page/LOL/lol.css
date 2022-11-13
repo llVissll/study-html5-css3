@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
+:root{
+    --fontTittle: 'Kaushan Script', cursive;
+    --fontTexto: 'Quicksand', sans-serif;
+}
 body, html{
     width: 100vw;
     height: 100vh;
@@ -10,18 +15,110 @@ body, html{
 }
 ::-webkit-scrollbar{
     width: 0;
+    height: 0;
 }
 
 main{
     width: 100vw;
     height: auto;
     background-color: white;
+    
 }
 
 main h1{
     font-size: 3em;
     text-align: center;
 }
+section#fundoBranco{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    
+}
+div.teste{
+    
+    width: 512px;
+    margin: auto;
+}
+
+section#fundoBranco article{
+    padding: 30px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+} 
+
+section#fundoBranco h2{
+    font-family: var(--fontTittle);
+    font-size: 2.3em;
+}
+
+section#fundoBranco p{
+    font-family: var(--fontTexto);
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+section#transp{
+    background-image: url('../imagens/AKALI_INFERNAL_WALLPAPER_LOGO_1920X1200.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    max-width: 100%;
+    padding: 30px;
+    background-color: black;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+ 
+
+section#transp p{
+    font-size: 1.5em;
+    font-family: var(--fontTexto);
+    color: white;
+    font-weight: 100;
+    
+}
+
+
+div#paragTransp{
+    width: 40vw;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+section#fundoBranco2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section#fundoBranco2 article{
+    padding: 50px;
+}
+section#fundoBranco2 h3{
+    font-family: var(--fontTittle);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+section#fundoBranco2 p{
+    font-family: var(--fontTexto);
+    font-size: 1.3em;
+    text-align: justify;
+}
+div#historia h2{
+    font-family: var(--fontTittle);
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
 @media screen and (max-width: 700px) {
     nav.active #menu{
         display: none;
@@ -49,5 +146,153 @@ main h1{
     }
     #lista li:hover{
         background-color: black;
+    }
+    div.teste{
+        width: 270px;
+    }
+    section#fundoBranco{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        align-items: center;
+    }
+    section#fundoBranco h2{
+        font-size: 1.4em;
+    }
+    
+    section#fundoBranco p{
+      
+        font-size: 1em;
+    }
+    section#fundoBranco article{
+        
+        width: 80%;
+        
+    } 
+    #art1{
+        order: -1;
+    }
+    div#foto1{
+        order: 1;
+    }
+    #art2{
+        order: 2;
+    }
+    div#foto2{
+        order: 3;
+    }
+    section#transp p{
+        font-size: 1em;
+        font-family: var(--fontTexto);
+        color: white;
+    }
+    
+    section#transp{
+
+        background-position: center top;
+        height: 600px;
+    }
+    section#fundoBranco2{
+        
+        grid-template-columns: 1fr ;
+    }
+    section#fundoBranco2 article{
+        padding: 30px;
+    }
+    section#fundoBranco2 h3{
+        
+        font-size: 1.3em;
+    }
+    
+    section#fundoBranco2 p{
+        
+        font-size: 1em;
+        
+    }
+    div#historia h2{
+        font-size: 2em;
+        
+       
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 899px){
+    
+    section#fundoBranco article{
+        padding: 30px;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    } 
+    section#fundoBranco h2{
+        font-size: 1.6em;
+    }
+    
+    section#fundoBranco p{
+      
+        font-size: 1em;
+    }
+    div.teste{
+        width: 300px;
+    }
+    section#transp p{
+        font-size: 1.2em;
+        font-family: var(--fontTexto);
+        color: white; 
+    }
+    section#transp{
+
+        background-position: center top;
+        height: 600px;
+    }
+    section#fundoBranco2 article{
+        padding: 50px;
+    }
+    section#fundoBranco2 h3{
+        font-family: var(--fontTittle);
+        font-size: 1.5em;
+    }
+    
+    section#fundoBranco2 p{
+        font-family: var(--fontTexto);
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    
+} 
+
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+    div.teste{
+        width: 400px;
+    }
+    section#fundoBranco h2{
+        font-size: 1.8em;
+    }
+    
+    section#fundoBranco p{
+      
+        font-size: 1.3em;
+    }
+    section#transp p{
+        font-size: 1.3em;
+        font-family: var(--fontTexto);
+        color: white; 
+    }
+    section#transp{
+
+        background-position: center top;
+        height: 600px;
+    }
+}
+@media screen and (min-width: 1101px) and (max-width: 1300px) {
+    section#transp p{
+        font-size: 1.4em;
+        font-family: var(--fontTexto);
+        color: white;
+    }
+    section#transp{
+
+        background-position: center top;
+        height: 650px;
     }
 }
