@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
+:root{
+    --fontTittle: 'Kaushan Script', cursive;
+    --fontTexto: 'Quicksand', sans-serif;
+}
 body, html{
     width: 100vw;
     height: 100vh;
@@ -13,12 +18,112 @@ body, html{
 }
 
 main{
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: white;
+    
+}
+div#nome-viss h2{
+    font-size: 2.5em;
+    font-family: var(--fontTittle);
+    text-align: center;
+    padding-top: 30px;
 }
 
 main h1{
     font-size: 3em;
     text-align: center;
+}
+section.container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  
+}
+.fotos img{
+    max-width: 100%;
+    border-radius: 20%;
+    height: 400px;
+}
+
+div#lista-redes li a{
+        text-decoration: none;
+        font-size: 2em;
+}
+div#lista-redes p{
+    display: block;
+    font-size: 2em;
+    margin-right: 20px;
+}
+div#lista-redes li{
+    display: flex;
+    align-items: center;
+}
+
+
+div#lista-redes li a:hover{
+    text-decoration: underline;
+    
+}
+div#nome-kasuna h2{
+    margin-top: 50px;
+    font-size: 2.5em;
+    font-family: var(--fontTittle);
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    section.container{
+        display: grid;
+        grid-template-columns: 250px;
+        row-gap: 50px;
+        justify-content: center;
+         
+    }
+    div#lista-redes li a{
+        text-decoration: none;
+        font-size: 1.2em;
+
+}
+
+div#lista-redes li{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+div#lista-redes p{
+    display: block;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+}
+
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+    section.container{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        row-gap: 50px;
+         
+    }
+    div#lista-redes li a{
+        text-decoration: none;
+        font-size: 1.5em;
+}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    section.container{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        row-gap: 50px;
+         
+    }
+    div#lista-redes li a{
+        text-decoration: none;
+        font-size: 1.5em;
+}
 }
