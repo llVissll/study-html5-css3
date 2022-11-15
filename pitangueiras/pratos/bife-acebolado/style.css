@@ -82,6 +82,9 @@ h4{
 
         font-size: 1.1em;
     }
+    footer p{
+        font-size: .8em;
+    }
 }
 
 @media screen and (min-width: 751px) and (max-width: 920px) {
