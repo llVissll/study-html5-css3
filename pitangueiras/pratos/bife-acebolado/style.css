@@ -68,13 +68,14 @@ h4{
     section#cont{
         display: grid;
         grid-template-columns: 300px ;
-        width: 500px;
+        width: 300px;
         margin: 50px auto;
         align-items: center;
         justify-content: center;
+        
     }
     div#ingredientes p{
-        font-size: 1.5em;
+        font-size: 1.1em;
         margin-top: 20px;
     }
 }

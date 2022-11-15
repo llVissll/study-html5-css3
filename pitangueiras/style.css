@@ -90,9 +90,16 @@ footer p{
     section#container{
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1, 350px);
+        grid-template-columns: repeat(1, 300px);
         justify-content: space-evenly;
         row-gap: 100px;
+    }
+    section#container div a{
+        text-align: center;
+        font-size: 1em;
+        font-family: 'mali', cursive;
+        color: black;
+        text-decoration: none;
     }
 }
 
