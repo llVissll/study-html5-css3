@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Mali&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100vw;
+    height: calc(100vh - 210px);
+}
+img{
+    max-width: 100%;
+   
+}
+section#cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+div#prato h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Mali', cursive;
+}
+
+div#ingredientes p{
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Mali', cursive;
+    font-size: 2em;
+    
+}
+div#pedido{
+    display: block;
+
+}
+div#whats p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#pedido a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 10px;
+
+}
+div#pedido a:hover{
+    text-decoration: underline;
+
+
+}
+h4{
+    font-size: 1em;
+    font-family: 'Mali', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    section#cont{
+        display: grid;
+        grid-template-columns: 300px ;
+        width: 500px;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    div#ingredientes p{
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 920px) {
+    section#cont{
+        display: grid;
+        grid-template-columns: 330px 330px;
+        width: 500px;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+    }
+}

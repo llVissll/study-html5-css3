@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Mali&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 130px;
+    width: 100%;
+    background-image: linear-gradient(to right, #E0E37C , #97501C , #77291E);
+}
+ 
+header h1{
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Bad script', cursive;
+    text-align: center;
+}
+ 
+header p{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Bad script', cursive;
+    text-align: center;
+}
+
+/* RODAPÉ */
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 1.5em;
+}

@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Mali&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 130px;
+    width: 100%;
+    background-image: linear-gradient(to right, #E0E37C , #97501C , #77291E);
+}
+ 
+header h1{
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Bad script', cursive;
+    text-align: center;
+}
+ 
+header p{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Bad script', cursive;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+main h2{
+    font-size: 2em;
+    font-family: 'Mali', cursive;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+}
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+img{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 20%;
+}
+section#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: space-evenly;
+    row-gap: 100px;
+}
+section#container div a{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'mali', cursive;
+    color: black;
+    text-decoration: none;
+}
+h4{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+#feijoada{
+    font-size: .7em;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 750px) {
+    section#container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+        justify-content: space-evenly;
+        row-gap: 100px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1200px){
+    section#container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        justify-content: space-evenly;
+        row-gap: 100px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px){
+    section#container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        justify-content: space-evenly;
+        row-gap: 100px;
+    }
+}
+
