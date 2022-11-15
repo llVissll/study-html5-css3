@@ -94,17 +94,17 @@ section#branco article{
     width: 70%;
     margin:  30px auto;
 }
-span.humild{
-    font-size: .6em;
-    text-align: right;
-}
-p#pequeno span{
-    font-size: .6em;
-
-}
 p#pequeno{
     display: flex;
     justify-content: right;
+    
+}
+p#pequeno span{
+    font-size: .6em;
+}
+span.humild{
+    font-size: .6em;
+
 }
 @media screen and (max-width: 700px) {
     main{
