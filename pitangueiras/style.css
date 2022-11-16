@@ -66,6 +66,12 @@ section#container div a{
     color: black;
     text-decoration: none;
 }
+div#iframes > h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'mali', cursive;
+    margin-bottom: 75px;
+}
 h4{
     margin-bottom: 20px;
     margin-top: -20px;
@@ -73,17 +79,34 @@ h4{
 #feijoada{
     font-size: .7em;
 }
+
 footer{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    height: 30px;
-    display: flex;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
-footer p{
-    font-size: 1.5em;
+footer p#p{
+    font-size: 1.1em;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p#jv{
+    color: white;
+    text-decoration: none;
+    font-size: .8em;
+
+}
+footer a:hover{
+    text-decoration: underline;
+
 }
 
 @media screen and (max-width: 750px) {
@@ -101,6 +124,13 @@ footer p{
         color: black;
         text-decoration: none;
     }
+    footer p{
+    font-size: 1em;
+}
+iframe{
+    width: 300px;
+    height: 290px;
+}
 }
 
 @media screen and (min-width: 751px) and (max-width: 1200px){
@@ -111,6 +141,10 @@ footer p{
         justify-content: space-evenly;
         row-gap: 100px;
     }
+    iframe{
+        width: 350px;
+        height: 300px;
+    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1300px){
@@ -120,6 +154,10 @@ footer p{
         grid-template-columns: repeat(3, 350px);
         justify-content: space-evenly;
         row-gap: 100px;
+    }
+    iframe{
+        width: 350px;
+        height: 300px;
     }
 }
 

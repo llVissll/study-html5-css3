@@ -78,12 +78,15 @@ h4{
         font-size: 1.1em;
         margin-top: 20px;
     }
-    div#pedido a{
-
-        font-size: 1.1em;
-    }
     footer p{
         font-size: .8em;
+    }
+    div#pedido a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.1em;
+        margin-left: 10px;
+    
     }
 }
 
