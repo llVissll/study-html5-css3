@@ -27,16 +27,13 @@ function mandarMsgF(prato){
         }else if(qtd < 0){
             qtd = qtd * -1
         }
-    
-
-
-    
+  
     var opcaoTexto = select.options[select.selectedIndex].text;   
          
     var msg = document.querySelector('.meuLink')
     var link = 'https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20' + prato +  '%20-%20Quantidade:%20' + qtd + '%20' + opcaoTexto
     msg.href = link
-    alert(opcaonum)
+    
         
     
 }
