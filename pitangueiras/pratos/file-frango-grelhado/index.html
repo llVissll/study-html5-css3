@@ -25,18 +25,24 @@
             </div>
             <div id="ingredientes">
                 <p>Arroz, feijão, filé de frango grelhado, e salada.</p>
+                <div id="qtds"><span>Quantidade: </span><input type="number" name="n1" id="n1"></div>
+                <div id="calculo">
+                    <button onclick="calcularPreço('20')" class="botaoPreço">Calcular preço</button>
+                    <p id="preço">R$00,00</p>
+                </div>
             </div>
            
         </section>
 
              <div id="pedido">
                 <div id="whats">
-                    <p><a href="https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20um%20Filé%20de%20frango%20grelhado."><img src="../../imagens/logo-whats.png" alt=""></a><a href="https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20um%20Filé%20de%20frango%20grelhado.">- Faça o pedido por aqui.</a></p>
+                    <p><a href="" onclick="mandarMsg('Filé de frango grelhado')" class="meuLink"><img src="../../imagens/logo-whats.png" alt=""> - Faça o pedido por aqui.</a></p>
                 </div>
             </div>
     </main>
     <footer>
         <p>&copy;Pitangueiras</p>
     </footer>
+    <script src="../../script.js"></script>
 </body>
 </html>

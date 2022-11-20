@@ -17,8 +17,9 @@ img{
 }
 section#cont{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px  400px;
     width: 900px;
+    justify-content: space-between;
     margin: 50px auto;
     align-items: center;
 }
@@ -34,22 +35,74 @@ div#ingredientes p{
     margin-left: 20px;
     font-family: 'Mali', cursive;
     font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+div#ingredientes p#baiao{
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Mali', cursive;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    
+}
+div#calculo p#preço{
+    font-size: 1.5em;
+}
+div#calculo{
+    display: flex;
+    width: 260px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.botaoPreço{
+    height: 32px;
+    border-radius: 10px;
+    border: .5px solid black;
+    outline: none;
+    padding: 5px;
+}
+.botaoPreço:hover{
+    background-color: rgb(184, 182, 182);
+    cursor: pointer;
+    
+}
+input#n1{
+    width: 35px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+div#qtds{
+    width: 122px;
+     margin: 0 auto;
+    
+}
+div#quant{
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: space-between;
     
 }
 div#pedido{
     display: block;
 
 }
+
 div#whats p{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    
 }
 div#pedido a{
     text-decoration: none;
     color: black;
     font-size: 1.5em;
     margin-left: 10px;
+    align-items: center;
+    
 
 }
 div#pedido a:hover{
@@ -88,6 +141,23 @@ h4{
         margin-left: 10px;
     
     }
+    div#calculo p#preço{
+        font-size: 1em;
+    }
+    div#calculo{
+        display: flex;
+        width: 205px;
+        margin: 20px auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    div#quant{
+        display: flex;
+        width: 210px;
+        margin: 0 auto;
+        justify-content: space-between;
+        
+    }
 }
 
 @media screen and (min-width: 751px) and (max-width: 920px) {
@@ -98,5 +168,12 @@ h4{
         margin: 50px auto;
         align-items: center;
         justify-content: center;
+    }
+    div#ingredientes p{
+        text-align: center;
+        margin-left: 20px;
+        font-family: 'Mali', cursive;
+        font-size: 1.4em;
+        
     }
 }

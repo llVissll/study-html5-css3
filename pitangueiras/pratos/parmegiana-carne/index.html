@@ -25,18 +25,23 @@
             </div>
             <div id="ingredientes">
                 <p>Arroz, feijão, bife parmegiana, batata frita e salada.</p>
+                <div id="qtds"><span>Quantidade: </span><input type="number" name="n1" id="n1"></div>
+                <div id="calculo">
+                    <button onclick="calcularPreço('28')" class="botaoPreço">Calcular preço</button>
+                    <p id="preço">R$00,00</p>
+                </div>
             </div>
            
         </section>
 
              <div id="pedido">
                 <div id="whats">
-                    <p><a href="https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20uma%20Parmegiana%20de%20carne."><img src="../../imagens/logo-whats.png" alt=""></a><a href="https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20uma%20Parmegiana%20de%20carne.">- Faça o pedido por aqui.</a></p>
-                </div>
+                    <p><a href="" onclick="mandarMsg('Parmegiana de carne')" class="meuLink"><img src="../../imagens/logo-whats.png" alt=""> - Faça o pedido por aqui.</a></p>
             </div>
     </main>
     <footer>
         <p>&copy;Pitangueiras</p>
     </footer>
+    <script src="../../script.js"></script>
 </body>
 </html>

@@ -19,24 +19,30 @@
     <main>
         <section id="cont">
             <div id="prato">
-                <h2>Virada Paulista</h2>
+                <h2>Virado à Paulista</h2>
                 <h4>(R$42,00)</h4>
                 <img src="../../imagens/virada-paulista.jpg" alt="">
             </div>
             <div id="ingredientes">
                 <p>Arroz, feijão, filé de frango, calabresa e ovo.</p>
-            </div>
+                <div id="qtds"><span>Quantidade: </span><input type="number" name="n1" id="n1" ></div>
+                <div id="calculo">
+                    <button onclick="calcularPreço('42')" class="botaoPreço">Calcular preço</button>
+                    <p id="preço">R$00,00</p>
+                </div>
+             </div>
            
         </section>
 
              <div id="pedido">
                 <div id="whats">
-                    <p><a href="https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20uma%20Virada%20Paulista."><img src="../../imagens/logo-whats.png" alt=""></a><a href="https://api.whatsapp.com/send?phone=5511983014966&text=Olá,%20gostaria%20de%20pedir%20uma%20Virada%20Paulista.">- Faça o pedido por aqui.</a></p>
+                    <p><a href="" onclick="mandarMsg('Virado à paulista')" class="meuLink"><img src="../../imagens/logo-whats.png" alt=""> <span id="faça">- Faça o pedido por aqui.</span></a></p>
                 </div>
             </div>
     </main>
     <footer>
         <p>&copy;Pitangueiras</p>
     </footer>
+    <script src="../../script.js"></script>
 </body>
 </html>
