@@ -52,7 +52,7 @@ div#calculo p#preço{
 div#calculo{
     display: flex;
     width: 260px;
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     justify-content: space-between;
 }
 .botaoPreço{
@@ -73,6 +73,7 @@ input#n1{
     margin: 0 auto;
     text-align: center;
 }
+
 div#qtds{
     width: 122px;
      margin: 0 auto;
@@ -118,11 +119,15 @@ h4{
 }
 
 @media screen and (max-width: 750px) {
+    main{
+        width: 100vw;
+        height: calc(100vh - 180px);
+    }
     section#cont{
         display: grid;
         grid-template-columns: 300px ;
         width: 300px;
-        margin: 50px auto;
+        margin: 20px auto 0px auto;
         align-items: center;
         justify-content: center;
         
@@ -158,6 +163,17 @@ h4{
         justify-content: space-between;
         
     }
+    input#n1{
+        width: 25px;
+        height: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .spans{
+        font-size: 0.8em;
+    }
+    
 }
 
 @media screen and (min-width: 751px) and (max-width: 920px) {
