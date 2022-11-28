@@ -1,0 +1,234 @@
+Body{
+    background-color: rgb(131, 71, 226);
+    font: normal 18pt arial;
+}
+
+section#papel h1, p{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    
+    
+}
+
+#botao{
+    height: 30px;
+    width: 130px;
+    font: normal 15pt arial;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 30px 10px 10px 0px;
+}
+
+
+#botao:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+.perg1{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+
+}
+.perg1:hover{
+
+    background-color: grey;
+    cursor: pointer;
+    
+    }
+.perg2{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+
+}
+.perg2:hover{
+
+background-color: grey;
+cursor: pointer;
+
+}
+.perg3{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+   
+
+}
+.perg3:hover{
+
+    background-color: grey;
+    cursor: pointer;
+    
+    }
+    .n1{
+        display: none;
+    }
+.perg4{
+
+    font: normal 25pt arial;
+    border-radius: 5px;
+    width: 500px;
+    text-align: left;
+
+}
+.perg4:hover{
+
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+    
+    }
+#papel{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 10px 10px 20px black;
+    margin-top: 120px;
+    max-width: 500px;
+
+
+}
+.pergunta{
+
+background-color: black;
+color: rgb(255, 255, 255);
+
+
+}
+div.div-buttons{
+    display: flex;
+    justify-content: right;
+}
+div#div-button{
+    
+    display: flex;
+    justify-content: center;
+}
+section{
+
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    
+}
+
+footer{
+font-style: italic;
+font: italic 10pt ;
+text-align: center;
+margin-top: 70px;
+
+}
+#start1{
+    height: 30px;
+    width: 130px;
+    font: normal 15pt arial;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 auto;
+}
+#start1:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    section{
+        width: 250px;
+    }
+    section#papel h1{
+        font-size: 1em;
+    }
+    section#papel p {
+        font-size: .8em;
+    }
+    .perg1{
+
+        font: normal 20pt arial;
+        border-radius: 5px;
+        width: 250px;
+        text-align: left;
+    
+    }
+    .perg1:hover{
+    
+        background-color: grey;
+        cursor: pointer;
+        
+        }
+    .perg2{
+    
+        font: normal 20pt arial;
+        border-radius: 5px;
+        width: 250px;
+        text-align: left;
+    
+    }
+    .perg2:hover{
+    
+    background-color: grey;
+    cursor: pointer;
+    
+    }
+    .perg3{
+    
+        font: normal 20pt arial;
+        border-radius: 5px;
+        width: 250px;
+        text-align: left;
+       
+    
+    }
+    .perg3:hover{
+    
+        background-color: grey;
+        cursor: pointer;
+        
+        }
+        .n1{
+            display: none;
+        }
+    .perg4{
+    
+        font: normal 20pt arial;
+        border-radius: 5px;
+        width: 250px;
+        text-align: left;
+    
+    }
+    .perg4:hover{
+    
+        background-color: rgb(128, 128, 128);
+        cursor: pointer;
+        
+        }
+
+        div.div-buttons{
+            display: flex;
+            justify-content: center;
+        }
+        #botao{
+            height: 30px;
+            width: 130px;
+            font: normal 15pt arial;
+            background-color: black;
+            color: white;
+            border: none;
+            margin: 30px 0px 10px 0px;
+        }
+
+}

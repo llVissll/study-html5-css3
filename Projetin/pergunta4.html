@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETIN QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <section id="papel">
+    <header>
+        <h1>QUIZ OF LEGENDS!!</h1>
+        <p>Pergunta 4</p>
+        <p class="pergunta">Em que ano o LOL foi criado?</p>
+        
+ 
+    </header>
+    <section>
+        <br>                                                          <!-- certa  num questao   ponto que soma -->
+        <form action="pergunta5.html" method="get">
+            <div><input type="button" value="2012" class="perg1" onclick="quiz(0, 1 , 4)"></div><br>
+            <div><input type="button" value="2011" class="perg2" onclick="quiz(0, 2 , 4)"></div><br>
+            <div><input type="button" value="2009" class="perg3" onclick="quiz(0, 3 , 4)"></div><br>
+            <div><input type="button" value="2010" class="perg4" onclick="quiz(1, 4, 4)"></div>
+            <input type="number" name="n1" class="n1" >
+            <div class="div-buttons"><input type="submit" value="próxima" id="botao"></div>
+        </form>
+    </section>
+</section>
+    <footer>
+        <p>&copy;Visska</p>
+    </footer>
+
+
+</body>
+
+<script src="script.js"></script>
+<script>
+    var urlAtual = window.location.href;
+    var urlClass = new URL(urlAtual);
+    var nome = urlClass.searchParams.get("n1");
+    var pont = document.querySelector('.n1')
+    pont.value = nome
+</script>
+</html>

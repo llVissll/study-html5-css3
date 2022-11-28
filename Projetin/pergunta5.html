@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETIN QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <section id="papel">
+    <header>
+        <h1>QUIZ OF LEGENDS!!</h1>
+        <p>Pergunta 5</p>
+        <p class="pergunta">Quem é a irmã do Garen?</p>
+        
+ 
+    </header>
+    <section>
+        <br>                                                          <!-- certa  numero da questao   questao que está certa -->
+        <form action="pergunta6.html" method="get">
+            <div><input type="button" value="Cassiopeia" class="perg1" onclick="quiz(0, 1 , 2)"></div><br>
+            <div><input type="button" value="Lux" class="perg2" onclick="quiz(1, 2 , 2)"></div><br>
+            <div><input type="button" value="Irelia" class="perg3" onclick="quiz(0, 3 , 2)"></div><br>
+            <div><input type="button" value="Katarina" class="perg4" onclick="quiz(0, 4, 2)"></div>
+            <input type="number" name="n1" class="n1" >
+            <div class="div-buttons"><input type="submit" value="próxima" id="botao"></div>
+        </form>
+    </section>
+</section>
+    <footer>
+        <p>&copy;Visska</p>
+    </footer>
+
+
+</body>
+
+<script src="script.js"></script>
+<script>
+    var urlAtual = window.location.href;
+    var urlClass = new URL(urlAtual);
+    var nome = urlClass.searchParams.get("n1");
+    var pont = document.querySelector('.n1')
+    pont.value = nome
+</script>
+</html>
