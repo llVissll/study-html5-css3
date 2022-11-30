@@ -149,6 +149,7 @@ margin-top: 70px;
 @media screen and (max-width: 750px) {
     section{
         width: 250px;
+        margin-top: 50px;
     }
     section#papel h1{
         font-size: 1em;
