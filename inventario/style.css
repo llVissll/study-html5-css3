@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    background-color: #B4BEC9;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.199);
+}
+header h1{
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+main{
+    background-color: #DEEFE7;
+    width: 500px;
+    height: calc(100vh - 120px);
+    margin: 0 auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.377);
+}
+
+li{
+    margin: auto;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-family: 'mali', cursive;
+}
+li p{
+    margin-top: 15px;
+}
+
+input#totalh{
+    border: .5px solid black;
+    outline: none;
+    height: 30px;
+    border-radius: 8px;
+    text-indent: 10px;
+}
+
+
+button{
+    border: .5px solid black;
+    outline: none;
+    height: 30px;
+    border-radius: 8px;
+    width: 70px;
+    background-color: #159A9C;
+    color: white;
+}
+
+button:hover{
+    background-color: #0a4546;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    header{
+        width: 270px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 50px;
+        height: 100px;
+    }
+    header > h1{
+        padding: 10px;
+        font-size: 1.5em;
+    }
+    input#totalh{
+        height: 25px;
+    }
+    button{
+        height: 25px;
+    }
+    main{
+        width: 270px;
+        height: calc(100vh - 100px);
+    }
+
+    li{
+        margin: auto;
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2em;
+        font-family: 'mali', cursive;
+    }
+}
