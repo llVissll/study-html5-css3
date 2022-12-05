@@ -40,8 +40,11 @@ li{
 }
 li p{
     margin-top: 15px;
+    
 }
-
+li#last{
+    padding-bottom: 30px;
+}
 input#totalh{
     border: .5px solid black;
     outline: none;
