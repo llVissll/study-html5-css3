@@ -26,7 +26,7 @@ main{
     background-color: #DEEFE7;
     width: 500px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.377);
 }
 
