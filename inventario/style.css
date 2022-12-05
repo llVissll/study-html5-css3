@@ -25,7 +25,7 @@ header h1{
 main{
     background-color: #DEEFE7;
     width: 500px;
-    height: calc(100vh - 120px);
+    height: auto;
     margin: 0 auto;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.377);
 }
@@ -86,7 +86,7 @@ button:hover{
     }
     main{
         width: 270px;
-        height: calc(100vh - 100px);
+        height: auto;
     }
 
     li{
