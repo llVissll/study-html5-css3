@@ -5,6 +5,11 @@ function calcular(){
     let result = document.getElementById("res")
     let n2 = document.getElementById("num")
     let n1 = Number(n2.value)
+    if(n1 >= 61){
+        alert("O " + n1 + " não é um minuto válido! ")
+        n2.value = null
+    }else{
+
     let valor = n1 + 6
     if(valor >= 60){
         valor = valor - 60
@@ -31,6 +36,6 @@ function calcular(){
     }
 
     res.innerHTML = valor +" - "+ valor2 +" - "+ valor3 +" - "+ valor4 +" - "+ valor5 +" - "+ valor6 
-
+}
 
 }
