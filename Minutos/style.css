@@ -7,15 +7,19 @@ body{
     height: 100vh;
 }
 div#calculo{
-    display: flex;
-    width: 190px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    width: 150px;
+    justify-content: space-between;
+    
     margin: 20px auto 15px auto;
     
 }
 input[type=number]{
-    width: 30px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
     margin-left: 5px;
+    font-size: 1.3em;
 }
 h1{
     margin: auto;
