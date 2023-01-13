@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Mali&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +9,9 @@ body{
 }
 div#calculo{
     display: grid;
-    grid-template-columns: 100px 100px;
-    width: 150px;
+    grid-template-columns: 140px 140px;
+    width: 200px;
+    
     justify-content: space-between;
     
     margin: 20px auto 15px auto;
@@ -24,14 +26,17 @@ input[type=number]{
 h1{
     margin: auto;
     text-align: center;
+    font-family: 'Mali', cursive;
 }
 p{
-    font-size: 1.2em;
+    font-size: 1em;
+    font-family: 'Bad script', cursive;
 }
 p#res{
     text-align: center;
     margin-top: 30px;
     font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div#butt{
     
@@ -47,6 +52,7 @@ button#botao{
     border: 0;
     outline: 0;
     border-radius: 6px;
+    font-family: 'Mali', cursive;
 }
 
 button#botao:hover{
