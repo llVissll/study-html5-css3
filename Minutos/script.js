@@ -10,6 +10,11 @@ function calcular(){
         n2.value = null
     }else{
 
+        let newvalor = n1 + 4
+        if(newvalor >= 60){
+            newvalor = newvalor - 60
+        }
+
     let valor = n1 + 6
     if(valor >= 60){
         valor = valor - 60
@@ -35,7 +40,7 @@ function calcular(){
         valor6 = valor6 - 60
     }
 
-    res.innerHTML = valor +" - "+ valor2 +" - "+ valor3 +" - "+ valor4 +" - "+ valor5 +" - "+ valor6 
+    res.innerHTML = newvalor +" - "+ valor +" - "+ valor2 +" - "+ valor3 +" - "+ valor4 +" - "+ valor5 +" - "+ valor6 
 }
 
 }
