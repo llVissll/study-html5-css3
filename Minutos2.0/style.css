@@ -142,7 +142,10 @@ button#calc:hover{
     }
     main{
         width: 650px;
-        height: 790px;
+        height: 550px;
+    }
+    div#cont{
+        height: 300px;
     }
 }
 @media screen and (max-width: 750px) {
