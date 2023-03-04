@@ -35,6 +35,7 @@ button{
     margin: auto;
     background-color: rgb(218, 41, 41);
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 button:hover{
     background-color: rgb(148, 24, 24);
