@@ -15,7 +15,7 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -65%);
+    transform: translate(-50%, -50%);
     box-shadow: 2px 2px 26px black;
     border-radius: 10px;
     padding: 10px;
@@ -137,14 +137,14 @@ button#calc:hover{
 
 @media screen and (min-width:751px) and (max-width:900px) {
     h1{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     p#textin{
-        font-size: 1.2em; 
+        font-size: 1em; 
     }
     main{
-        width: 650px;
-        height: 550px;
+        width: 600px;
+        height: 500px;
     }
     div#cont{
         height: 300px;
