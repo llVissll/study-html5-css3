@@ -15,7 +15,7 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -65%);
     box-shadow: 2px 2px 26px black;
     border-radius: 10px;
 }
@@ -161,7 +161,7 @@ button#calc:hover{
     main{
         width: 300px;
         height: 550px;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -65%);
         padding: 10px;
     }
     div#container{
