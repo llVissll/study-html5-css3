@@ -10,13 +10,14 @@ body{
 }
 main{
     background-color: white;
-    width: 800px;
-    height: 850px;
+    width: 700px;
+    height: 650px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px 26px black;
+    border-radius: 10px;
 }
 div#calculo{
     display: flex;
@@ -39,7 +40,7 @@ h1{
 }
 p#textin{
     font-family: 'Mali', cursive;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
     
 }
@@ -78,7 +79,7 @@ div#container{
     margin: 20px auto;
 }
 div#cont{
-    height: 500px;
+    height: 400px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(10, 1fr);
@@ -159,16 +160,17 @@ button#calc:hover{
     }
     main{
         width: 300px;
-        height: 640px;
+        height: 550px;
         transform: translate(-50%, -50%);
+        padding: 10px;
     }
     div#container{
         width: 250px;
-        height: 550px;
+        height: 500px;
         margin: 20px auto;
     }
     div#cont{
-        height: 400px;
+        height: 350px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
