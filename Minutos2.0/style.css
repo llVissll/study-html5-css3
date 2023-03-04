@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, skyblue, rgb(19, 19, 126));
+}
+main{
+    background-color: white;
+    width: 800px;
+    height: 850px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 26px black;
+}
+div#calculo{
+    display: flex;
+    width: 250px;
+    margin: 20px auto 15px auto;
+    
+}
+input[type=number]{
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Bad Script', cursive;
+    /*font-family: 'Inter', sans-serif;
+    font-family: 'Mali', cursive;*/
+}
+p#textin{
+    font-family: 'Mali', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+p{
+    font-size: 1.5em;
+}
+p#res{
+    text-align: center;
+    margin-top: 30px;
+}
+div#butt{
+    
+    width: 150px;
+    margin: 0px auto 10px auto;
+}
+button#botao{
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    background-color: gray;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+}
+
+button#botao:hover{
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+}
+
+
+div#container{
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+}
+div#cont{
+    height: 500px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    font-family: 'Inter', sans-serif
+}
+div.item{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.negrito{
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+input#min{
+    height: 30px;
+    width: 30px;
+    font-size: 1.5em;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+div#setup{
+    margin: 30px auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+button#calc{
+    width: 60px;
+    height: 33px;
+    background-color: skyblue;
+    border: 0.5px solid black;
+    outline: none;
+    font-family: 'Inter', sans-serif
+}
+button#calc:hover{
+    cursor: pointer;
+    background-color: rgb(64, 129, 155);
+    color: white;
+}
+
+@media screen and (min-width:751px) and (max-width:900px) {
+    h1{
+        font-size: 1.5em;
+    }
+    p#textin{
+        font-size: 1.2em; 
+    }
+    main{
+        width: 650px;
+        height: 790px;
+    }
+}
+@media screen and (max-width: 750px) {
+    h1{
+        font-size: 1.2em;
+    }
+    p#textin{
+        font-size: 0.9em;
+        padding: 10px;
+    }
+    main{
+        width: 300px;
+        height: 800px;
+        transform: translate(-50%, -50%);
+    }
+    div#container{
+        width: 250px;
+        height: 550px;
+       
+        margin: 20px auto;
+    }
+    div#cont{
+        height: 550px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    div.item{
+        border: 1px solid black;
+        text-align: center;
+    }
+}
