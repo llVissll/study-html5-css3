@@ -151,21 +151,21 @@ button#calc:hover{
     }
     p#textin{
         font-size: 0.9em;
-        padding: 10px;
+        width: 290px;
+        margin: auto;
     }
     main{
         width: 300px;
-        height: 800px;
+        height: 640px;
         transform: translate(-50%, -50%);
     }
     div#container{
         width: 250px;
         height: 550px;
-       
         margin: 20px auto;
     }
     div#cont{
-        height: 550px;
+        height: 400px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
