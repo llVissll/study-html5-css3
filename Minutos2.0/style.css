@@ -11,7 +11,7 @@ body{
 main{
     background-color: white;
     width: 700px;
-    height: 370px;
+    height: 385px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,6 +24,7 @@ div#calculo{
     display: flex;
     width: 250px;
     margin: 20px auto 15px auto;
+    
     
 }
 input[type=number]{
@@ -106,7 +107,7 @@ div.item{
 }
 input#min{
     height: 50px;
-    width: 50px;
+    width: 70px;
     font-size: 1.5em;
     text-align: center;
 }
@@ -119,8 +120,8 @@ div#setup{
     align-items: center;
 }
 button#calc{
-    width: 60px;
-    height: 33px;
+    width: 70px;
+    height: 50px;
     background-color: skyblue;
     border: 0.5px solid black;
     outline: none;
