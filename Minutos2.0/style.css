@@ -134,7 +134,7 @@ button#calc:hover{
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {  
   width: 20px;
-  height: 20px;
+  height: 35px;
 }
 /*
 @media screen and (min-width:751px) and (max-width:900px) {
