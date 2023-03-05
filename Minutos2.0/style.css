@@ -131,6 +131,11 @@ button#calc:hover{
     background-color: rgb(64, 129, 155);
     color: white;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+  width: 50px;
+  height: 50px;
+}
 /*
 @media screen and (min-width:751px) and (max-width:900px) {
     h1{
