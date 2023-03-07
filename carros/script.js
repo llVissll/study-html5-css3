@@ -103,6 +103,4 @@ ate 70k civic 2008
 1,6kk - 3kk porsche 911 turbo S 2023
 3kk - 4kk Ferrari 458 Spider 2013 
 4kk - 5kk Lamborghini Aventador 2016 
-
-
 */
