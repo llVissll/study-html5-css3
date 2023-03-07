@@ -93,7 +93,7 @@ div#foto img{
     background-repeat: no-repeat;
     height: 180px;
 }
-@media screen and (min-width: 700px)  and (max-width: 1299px){
+@media screen and (min-width: 700px)  and (max-width: 1499px){
     main{
         width: 375px;
         height: 410px;
@@ -128,7 +128,7 @@ div#foto img{
         height: 250px;
     }
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1500px) {
     main{
         width: 500px;
         height: 600px;
