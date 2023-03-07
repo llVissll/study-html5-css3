@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(45deg, var(--corMarrom), var(--corCeu), var(--corRoxo));
+    width: 100%;
+    height: 100vh;
+}
+:root{
+    --corMarrom: #32332E;
+    --corCeu: #D38A61;
+    --corRoxo: #614752;
+}
+
+main{
+    background-color: white;
+    width: 270px;
+    height: 470px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 26px black;
+}
+div#form{
+    height: 250px;
+}
+
+div#form h1{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+p#msg{
+    margin-top: 13px;
+}
+p#res{
+    font-family: 'Mali', cursive;
+    text-align: center;
+}
+div#form p{
+    font-family: 'Mali', cursive;
+    margin-bottom: 20px;
+    
+}
+
+span{
+    font-family: 'Mali', cursive;
+    font-size: 1.3em;
+}
+div#divValor{
+    
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+input[type=number]{
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    
+    
+}
+input[type=number]::placeholder{
+    
+    font-family: 'Mali', cursive;
+}
+input#botao{
+    height: 23px;
+    width: 70px;
+    border: .5px solid black;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    background-color: skyblue;
+    
+}
+input#botao:hover{
+    background-color: rgb(74, 128, 150);
+    color: white;
+    cursor: pointer;
+}
+
+div#foto img{
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 180px;
+}
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    main{
+        width: 500px;
+        height: 600px;
+        
+    }
+    div#divValor{
+        margin: 0 auto;
+        width: 260px;
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+    }
+    p#msg{
+        text-align: center;
+    }
+    div#form{
+        height: 200px;
+    }
+
+    div#foto img{
+        max-width: 100%;
+        height: 360px;
+    }
+}
+@media screen and (min-width: 951px) {
+    main{
+        width: 600px;
+        height: 660px;
+        
+    }
+    p{
+        font-size: 1.2em;
+    }
+    div#divValor{
+        margin: 0 auto;
+        width: 260px;
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+    }
+    p#msg{
+        text-align: center;
+    }
+    div#form{
+        height: 220px;
+    }
+
+    div#foto img{
+        max-width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+}

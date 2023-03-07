@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carros</title>
+</head>
+<body>
+    <main>
+        <div id="form">
+                <h1>Carros dos sonhos</h1>
+                <p>Digite um valor inteiro e saiba qual carro comprar. (min: 30k / max: 5kk) </p>
+                <div id="divValor">
+                    <span>R$</span><input type="number" name="" id="valor" placeholder="Valor.." required>
+                    <input type="button" name="" id="botao" value="Ver carro" onclick="verCarro()">
+                </div>
+                <p id="msg"></p>
+        </div>
+        <div id='foto'>
+            <img id="imagem" src="imagens/pexels-nout-gons-248159.jpg" alt="">
+        </div>
+        <div id="infos">
+            <p id="res"></p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
