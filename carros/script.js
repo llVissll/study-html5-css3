@@ -10,7 +10,7 @@ function verCarro(){
     }   
     
     if(valor <= 49999 || valor >= 5000001){
-      alert(`Digite um valor entre 30mil e 5 milhões.`)
+      alert(`Digite um valor entre 50mil e 5 milhões.`)
     }
     else if(valor >= 50000 && valor <= 70000){
       document.getElementById('imagem').src='imagens/civic-2008.jpg'
