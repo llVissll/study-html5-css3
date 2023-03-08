@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --cor01: #AAECFC;
+    --cor02: #88A3E2;
+    --cor03: #B7A6F6;
+    --cor04: #C37EDB;
+}
+body, html{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, var(--cor01), var(--cor02), var(--cor03), var(--cor04));
+}
+main{
+    background-color: white;
+    width: 260px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 2px 2px 26px black;
+    padding: 20px;
+}
+h1{
+    font-family: bad Script;
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+p{
+    font-family: inter;
+    text-align: justify;
+    text-indent: 15px;
+}
+p#love{
+    margin: 10px 0px ;
+    font-size: 1.2em;
+    text-align: center;
+}
+div#foto{
+    background-image: url("imagens/foto-mamis.png");
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+@media screen and (min-width:750px) {
+    main{
+        width: 600px;
+        height: 350px;
+    }
+    div#form{
+        float: left;
+        width: 50%;
+    }
+    div#foto{
+        float: right;
+        width: 45%;
+    }
+    
+}
