@@ -11,17 +11,14 @@
 }
 body, html{
     width: 100%;
-    min-height: 100vh;
+    min-height: 96.8vh;
     background-image: linear-gradient(45deg, var(--cor01), var(--cor02), var(--cor03), var(--cor04));
 }
 main{
     background-color: white;
     width: 260px;
     height: 700px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 30px auto;
     border-radius: 10px;
     box-shadow: 2px 2px 26px black;
     padding: 20px;
