@@ -11,7 +11,7 @@
 }
 body, html{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(45deg, var(--cor01), var(--cor02), var(--cor03), var(--cor04));
 }
 main{
