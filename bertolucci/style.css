@@ -31,7 +31,7 @@ main{
     height: 400px;
     display: flex;
     overflow-x: scroll;
-    gap: 40px;
+    gap: 20px;
     padding: 10px;
     
 }
