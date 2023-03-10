@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --corCinza: #4C4A59;
+    --corVE: #1B7F7A;
+    --corAzul: #0897B4;
+    --corVA: #4CABA6;
+    --corBege: #F2CDAC;
+}
+body, html{
+    width: 100%;
+    min-height: 100vh;
+}
+header{
+    height: 100px;
+    background-color: var(--corVE);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a#logo{
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-family: bad script;
+}
+#menu{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+header ul a{
+    color: white;
+    font-size: 1.5em;
+    font-family: mali;
+    text-decoration: none;
+}
+.lista{
+    padding: 5px; 
+
+}
+.lista:hover{
+    background-color: var(--corVA);
+
+}
+
+#btn-open, #btn-close{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    header{
+        justify-content: space-around;
+    }
+    .material-symbols-outlined{
+        font-size: 2em;
+    }
+
+    #btn-open{
+        background-color: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+        display: block;
+        
+    }
+    #btn-close{
+        background-color: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    #menu{
+        display: block;
+        background-color: var(--corVE);
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        transition: 1s; 
+         
+    }
+    nav.active #menu{
+        visibility: visible;
+        height: calc(100vh - 100px);
+    }
+    nav.active #btn-open{
+        display: none;
+    }
+    nav.active #btn-close{
+        display: block;
+    }
+    .lista{
+        border-bottom: 1.5px solid #25524f;
+        padding: 1rem 0rem;
+        margin: 0rem 1rem;
+        text-indent: 20px;
+        font-size: .8em;
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --corCinza: #4C4A59;
+    --corVE: #1B7F7A;
+    --corAzul: #0897B4;
+    --corVA: #4CABA6;
+    --corBege: #F2CDAC;
+}
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--corVA);
+}
+main{
+    background-color: white;
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px black;
+}
+.container{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 40px;
+    padding: 10px;
+    
+}
+
+.sessoes{
+    margin-bottom: 50px;
+}
+main h1{
+    height: 50px;
+    font-size: 1.4em;
+    font-family: mali;
+    text-indent: 20px;
+    text-decoration: underline;
+    
+}
+div.itens{
+    flex: 1 0 200px;
+    border: 1px solid black;
+    
+}
+
+img{
+    max-width: 100%;
+}
