@@ -39,6 +39,9 @@ main{
 .sessoes{
     margin-bottom: 50px;
 }
+#lastS{
+    margin-bottom: -50px;
+}
 main h1{
     text-align: center;
     height: 50px;
@@ -56,4 +59,25 @@ div.itens{
 
 img{
     max-width: 100%;
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    
+    main{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 901px) {
+    
+    main{
+        width: 70%;
+    }
+    .container{
+        width: 90%;
+    }
+    div.itens{
+        flex: 1 0 250px;
+        border: 1px solid black;
+        
+    }
 }

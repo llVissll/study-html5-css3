@@ -120,3 +120,10 @@ header ul a{
         font-size: .8em;
     }
 }
+
+@media screen and (min-width: 701px) and (max-width: 900px){
+
+    .lista{
+        font-size: .8em;
+    }
+}
