@@ -94,11 +94,13 @@ header ul a{
         visibility: hidden;
         overflow: hidden;
         transition: 1s; 
-         
+        z-index: 10000000;
     }
     nav.active #menu{
         visibility: visible;
         height: calc(100vh - 100px);
+        
+        
     }
     nav.active #btn-open{
         display: none;
