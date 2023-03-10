@@ -35,7 +35,10 @@ main{
     padding: 10px;
     
 }
-
+p#paper{
+    font-size: 0.6em;
+    margin-top: -25px;
+}
 .sessoes{
     margin-bottom: 50px;
 }
