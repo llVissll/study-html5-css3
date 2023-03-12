@@ -10,8 +10,8 @@ body{
 }
 main{
     background-color: white;
-    width: 700px;
-    height: 385px;
+    width: 660px;
+    height: 390px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,15 +50,16 @@ p#res{
 }
 
 div#container{
-    width: 500px;
+    width: 600px;
     margin: auto;
 }
 div#cont{
     height: 200px;
+    width: 600px;
     display: grid;
-    gap: 3px;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     font-family: 'Inter', sans-serif
 }
 div.minuto{
@@ -67,7 +68,8 @@ div.minuto{
     font-family: 'Inter', sans-serif  ;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 50px;
+    height: 45px;
+    width: 40px;
      
 }
 div.minuto:hover{
@@ -104,7 +106,7 @@ input#min{
 }
 
 div#setup{
-    margin: 5px auto;
+    margin: 0px auto 10px auto;
     width: 200px;
     display: flex;
     justify-content: space-around;
@@ -129,6 +131,7 @@ input[type=number]::-webkit-outer-spin-button {
   display: none;
 }
 
+/* 
 @media screen and (min-width:751px) and (max-width:900px) {
     h1{
         font-size: 1.3em;
@@ -143,7 +146,8 @@ input[type=number]::-webkit-outer-spin-button {
     div#cont{
         height: 300px;
     }
-}
+}*/
+
 @media screen and (max-width: 750px) {
     h1{
         font-size: 1.2em;
@@ -164,7 +168,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 10px auto 0px auto;
     }
     div#cont{
-        
+        gap: 3px;
         height: 350px;
         width: 295px;
         display: grid;
