@@ -87,11 +87,6 @@ function marcar(a, b, c, d, e, f){
         div6.style.color = `white`, div6.style.fontWeight = `bolder`, div6.style.fontSize = `1.5em`
         div6 = document.getElementById(`n` + f).id = `s` + f;
     }  
- 
-    
-    
-    
-    
     
 }
 
