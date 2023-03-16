@@ -61,19 +61,28 @@ div#legenda{
     grid-template-columns: 20px 100px;
     column-gap: 10px;
     width: 150px;
+    margin-left: 15px;
+    
 }
 
 div#legV{
     background-color: green;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
+    border: .5px solid black;
+   
+}
+div#legAZ{
+    background-color: rgb(44, 182, 209);
+    width: 10px;
+    height: 10px;
     border: .5px solid black;
    
 }
 div#legA{
     background-color: blue;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border: .5px solid black;
     
 }
@@ -238,8 +247,10 @@ input[type=number]::-webkit-outer-spin-button {
         display: grid;
         grid-template-columns: 20px 100px;
         column-gap: 10px;
+        row-gap: 3px;
         width: 110px;
-        margin-left: -10px;
+        margin-left: -1px;
+    
     }
     button#calc{
         width: 50px;

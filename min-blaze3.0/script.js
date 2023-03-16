@@ -10,27 +10,27 @@ function calcular(){
         alert(`Digite um número válido`)
     }else{
     let valor = n1 + 6
-    if(valor >= 60){
+    if(valor > 60){
         valor = valor - 60
     }
     let valor2 = n1 + 10
-    if(valor2 >= 60){
+    if(valor2 > 60){
         valor2 = valor2 - 60
     }
     let valor3 = n1 + 12
-    if(valor3 >= 60){
+    if(valor3 > 60){
         valor3 = valor3 - 60
     }
     let valor4 = n1 + 15
-    if(valor4 >= 60){
+    if(valor4 > 60){
         valor4 = valor4 - 60
     }
     let valor5 = n1 + 20
-    if(valor5 >= 60){
+    if(valor5 > 60){
         valor5 = valor5 - 60
     }
     let valor6 = n1 + 22
-    if(valor6 >= 60){
+    if(valor6 > 60){
         valor6 = valor6 - 60
     }
 
@@ -118,16 +118,16 @@ function apagar(a){
 
 
 function negrito(){
-    for(a = 0; a < 60; a++){
+    for(a = 0; a < 61; a++){
         let minuto = document.getElementById(`s` + a)
         if(minuto === null){
 
         }else{
             minuto.style.backgroundColor = `white`
-            minuto.style.color = `black`, minuto.style.fontWeight = `bolder`  
+            minuto.style.color = `blue`, minuto.style.fontWeight = `bolder`  
         }
     }
-    for(b = 0; b < 120; b++){
+    for(b = 0; b < 121; b++){
         let casa = document.getElementById(`t` + b)
         if(casa === null){
 
@@ -185,7 +185,9 @@ function branco(b){
 }
 
 function ticar(min, max){
- 
+    if(min < 0){
+        min = min + 120
+    }
     let f = Math.floor(Math.random() * (max - min) ) + min;
 
     let div = document.getElementById('c' + f);
