@@ -32,8 +32,8 @@ body, html{
   }
 main{
     background-color: var(--corBege);
-    width: 280px;
-    height: 290px;
+    width: 500px; /* 280px W   290px H */
+    height: 510px;
     margin: 30px auto;
     border-radius: 5px;
     box-shadow: 2px 2px 20px black;
