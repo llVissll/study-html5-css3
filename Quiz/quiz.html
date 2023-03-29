@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body onload="initeste()">
+    <header>
+        <h1 id="msgBV"></h1>
+        <h2 id="resultado">Teste de conhecimento</h2>
+    </header>
+        <p id="soma_acerto">0/10</p>
+        
+        <main id="main">
+                <div class="pergunta" id="perg">pergunta</div>
+                <div class="resposta" id="resp1"> <input class="bt" type="button" value="resposta1" name="r1" title="resposta1" id="rp1" onclick="responder('rp1')"></div>
+                <div class="resposta" id="resp2"> <input class="bt" type="button" value="resposta2" name="r2" title="resposta2" id="rp2" onclick="responder('rp2')"></div>
+                <div class="resposta" id="resp3"> <input class="bt" type="button" value="resposta3" name="r3" title="resposta3" id="rp3" onclick="responder('rp3')"></div>
+                <div class="resposta" id="resp4"> <input class="bt" type="button" value="resposta4" name="r4" title="resposta4" id="rp4" onclick="responder('rp4')"></div>
+        </main>
+</body>
+<script src="jsc.js"></script>
+</html>

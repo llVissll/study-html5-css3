@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --corBege: #F2CDAC;
+    --corVerdeC: #4CABA6;
+    --corVerdeE: #1B7F7A;
+    --corAzul: #0897B4;
+    --corCinza: #4C4A59;
+}
+body, html{
+    width: 100%;
+    min-height: 100vh;
+    background-color:  #4C9696;
+  }
+
+
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-family: bad script;
+  }
+
+  p#soma_acerto{
+    text-align: center;
+    color: white;
+    font-family: inter;
+    font-size: 1.5em;
+  }
+main{
+    background-color: var(--corBege);
+    width: 280px;
+    height: 290px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
+
+}
+
+div#perg{
+    width: 265px;
+    height: 50px;
+    font-size: .9em;
+    background-color: var(--corCinza);
+    color: white;
+    font-family: inter;
+    text-align: center;
+    padding: 7.5px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 20px;
+}
+.resposta{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.bt{
+      width: 270px;
+      height: 40px;
+      border: 1px solid black;
+      text-align: left;
+      text-indent: 10px;
+      border-radius: 5px;
+      background-color: white;
+      font-family: inter;
+      font-size: .9em;
+      
+}
+.bt:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);
+}
+
+@media screen and (min-width: 750px) {
+    main{
+        width: 500px;
+        height: 390px;
+        background-color: var(--corBege);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-85%);
+        border-radius: 5px;
+        
+        background-position: center;
+    }
+    h2{
+        font-size: 2em;
+    }
+    p#soma_acerto{
+        font-size: 2em;
+    }
+    div#perg{
+        width: 485px;
+        font-size: 1.3em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .bt{
+        width: 490px;
+        height: 55px;
+        font-size: 1.3em;
+        
+  }
+}
