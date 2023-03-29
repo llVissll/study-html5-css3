@@ -75,7 +75,7 @@ div#perg{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);
 }
 
-@media screen and (min-width: 700px) {
+/*@media screen and (min-width: 700px) {
     main{
         width: 500px;
         height: 390px;
@@ -85,7 +85,6 @@ div#perg{
         left: 50%;
         transform: translate(-50%,-85%);
         border-radius: 5px;
-        
         background-position: center;
     }
     h2{
@@ -106,4 +105,4 @@ div#perg{
         font-size: 1.3em;
         
   }
-}
+}*/
