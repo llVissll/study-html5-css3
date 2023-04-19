@@ -41,55 +41,55 @@ function finalizar(){
     if(input3.value === 'tarso' || input3.value === 'Tarso'){
         soma += 1
     }
-    if(input4.value === 'tibia' || input4.value === 'Tibia'){
+    if(input4.value === 'tibia' || input4.value === 'Tibia' || input4.value === 'Tíbia' || input4.value === 'tíbia'){
         soma += 1
     }
-    if(input5.value === 'fibula' || input5.value === 'Fibula'){
+    if(input5.value === 'fibula' || input5.value === 'Fibula' || input5.value === 'Fíbula' || input5.value === 'fíbula'){
         soma += 1
     }
     if(input6.value === 'patela' || input6.value === 'Patela'){
         soma += 1
     }
-    if(input7.value === 'femur' || input7.value === 'Femur'){
+    if(input7.value === 'femur' || input7.value === 'Femur' || input7.value === 'Fêmur' || input7.value === 'fêmur'){
         soma += 1
     }
     if(input8.value === 'pelve' || input8.value === 'Pelve'){
         soma += 1
     }
-    if(input9.value === 'vertebras caudais' || input9.value === 'Vertebras caudais'){
+    if(input9.value === 'vertebras caudais' || input9.value === 'Vertebras caudais' || input9.value === 'Vértebras caudais' || input9.value === 'vértebras caudais'){
         soma += 1
     }
     if(input10.value === 'sacro' || input10.value === 'Sacro'){
         soma += 1
     }
-    if(input11.value === 'vertebras lombares' || input11.value === 'Vertebras lombares'){
+    if(input11.value === 'vertebras lombares' || input11.value === 'Vertebras lombares' || input11.value === 'Vértebras lombares' || input11.value === 'vértebras lombares'){
         soma += 1
     }
-    if(input12.value === 'torax' || input12.value === 'Torax'){
+    if(input12.value === 'torax' || input12.value === 'Torax' || input12.value === 'Tórax' || input12.value === 'tórax'){
         soma += 1
     }
-     if(input13.value === 'vertebras toracicas' || input13.value === 'Vertebras toracicas'){
+     if(input13.value === 'vertebras toracicas' || input13.value === 'Vertebras toracicas' || input13.value === 'Vértebras torácicas' || input13.value === 'vértebras torácicas'){
         soma += 1
     }
-    if(input14.value === 'vertebras cervicais' || input14.value === 'Vertebras cervicais'){
+    if(input14.value === 'vertebras cervicais' || input14.value === 'Vertebras cervicais' || input14.value === 'Vértebras cervicais' || input14.value === 'vértebras cervicais'){
         soma += 1
     }
-     if(input15.value === 'cranio' || input15.value === 'Cranio'){
+     if(input15.value === 'cranio' || input15.value === 'Cranio' || input15.value === 'Cârnio' || input15.value === 'crânio'){
         soma += 1
     }
      if(input16.value === 'maxilar' || input16.value === 'Maxilar'){
         soma += 1
     }
-     if(input17.value === 'mandibula' || input17.value === 'Mandibula'){
+     if(input17.value === 'mandibula' || input17.value === 'Mandibula' || input17.value === 'Mandíbula' || input17.value === 'mandíbula'){
         soma += 1
     }
-     if(input18.value === 'escapula' || input18.value === 'Escapula'){
+     if(input18.value === 'escapula' || input18.value === 'Escapula' || input18.value === 'Escápula' || input18.value === 'escápula'){
         soma += 1
     }
-     if(input19.value === 'umero' || input19.value === 'Umero'){
+     if(input19.value === 'umero' || input19.value === 'Umero' || input19.value === 'Úmero' || input19.value === 'úmero'){
         soma += 1
     }
-    if(input20.value === 'radio' || input20.value === 'Radio'){
+    if(input20.value === 'radio' || input20.value === 'Radio' || input20.value === 'Rádio' || input20.value === 'rádio'){
         soma += 1
     }
      if(input21.value === 'ulna' || input21.value === 'Ulna'){
