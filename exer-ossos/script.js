@@ -62,16 +62,16 @@ function finalizar(){
     if(input10.value === 'sacro' || input10.value === 'Sacro'){
         soma += 1
     }
-    if(input11.value === 'vertebras lombares' || input11.value === 'Vertebras lombares' || input11.value === 'Vértebras lombares' || input11.value === 'vértebras lombares'){
+    if(input11.value === 'vertebras lombares' || input11.value === 'Vertebras lombares' || input11.value === 'Vértebras lombares' || input11.value === 'vértebras lombares' || input11.value === 'Vertebras Lombares' || input11.value === 'Vértebras Lombares'){
         soma += 1
     }
     if(input12.value === 'torax' || input12.value === 'Torax' || input12.value === 'Tórax' || input12.value === 'tórax'){
         soma += 1
     }
-     if(input13.value === 'vertebras toracicas' || input13.value === 'Vertebras toracicas' || input13.value === 'Vértebras torácicas' || input13.value === 'vértebras torácicas'){
+     if(input13.value === 'vertebras toracicas' || input13.value === 'Vertebras toracicas' || input13.value === 'Vértebras torácicas' || input13.value === 'vértebras torácicas' || input13.value === 'Vértebras Torácicas' || input13.value === 'Vertebras Toracicas'){
         soma += 1
     }
-    if(input14.value === 'vertebras cervicais' || input14.value === 'Vertebras cervicais' || input14.value === 'Vértebras cervicais' || input14.value === 'vértebras cervicais'){
+    if(input14.value === 'vertebras cervicais' || input14.value === 'Vertebras cervicais' || input14.value === 'Vértebras cervicais' || input14.value === 'vértebras cervicais' || input14.value === 'Vértebras Cervicais' || input14.value === 'Vertebras Cervicais'){
         soma += 1
     }
      if(input15.value === 'cranio' || input15.value === 'Cranio' || input15.value === 'Cârnio' || input15.value === 'crânio'){
