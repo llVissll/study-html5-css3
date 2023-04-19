@@ -37,11 +37,14 @@ p.resp, p.resp1, p.resp2, p.resp3{
     display: inline;
     margin-right: 20px;
 }
+input, p.resp1, p.resp2, p.resp3{
+    margin-top: 3px;
+}
 p.resp1{
     margin-right: 23px;
 }
 p.resp2{
-    margin-right: 24px;
+    margin-right: 22px;
 }
 p.resp3{
     margin-right: 26px;
@@ -49,7 +52,7 @@ p.resp3{
 main{
     background-color: white;
     width: 320px;
-    height: 920px;
+    height: 870px;
     margin: 20px auto 0px auto;
 }
 img{
@@ -103,7 +106,7 @@ footer{
 @media screen and (min-width: 750px){
     main{
         width: 600px;
-        height: 1170px;
+        height: 1190px;
     }
     section{
         width: 320px;
