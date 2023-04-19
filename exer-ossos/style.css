@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Mali&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --verde01: #DAFDBA;
+    --verde02: #9AEBA3;
+    --verde03: #45C4B0;
+    --azul01: #13678A;
+    --azul02: #012030;
+
+}
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, #45C4B0, #13678A);
+}
+
+h1{
+    color: white;
+    font-family: bad script;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: bad script;
+    font-size: 1.2em;
+}
+p.resp, p.resp1, p.resp2, p.resp3{
+    color: black;
+    font-family: inter;
+    display: inline;
+    margin-right: 20px;
+}
+p.resp1{
+    margin-right: 23px;
+}
+p.resp2{
+    margin-right: 24px;
+}
+p.resp3{
+    margin-right: 26px;
+}
+main{
+    background-color: white;
+    width: 320px;
+    height: 920px;
+    margin: 20px auto 0px auto;
+}
+img{
+    max-width: 100%;
+}
+
+section{
+    width: 220px;
+    margin: auto;
+    
+}
+div#butao{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    font-family: inter;
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--verde01), var(--verde02), var(--verde03));
+    border: .5px solid black;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, var(--azul01), var(--verde03));
+    color: white;
+}
+
+
+
+/* rodape */
+footer h3{
+    font-size: 1em;
+    font-family: mali;
+    text-align: center;
+}
+footer{
+    background-color: #012030;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+
+@media screen and (min-width: 750px){
+    main{
+        width: 600px;
+        height: 1170px;
+    }
+    section{
+        width: 320px;
+        margin: auto;
+    }
+    input{
+        width: 250px;
+        height: 20px;
+    }
+    div#butao{
+        width: 600px;
+    }
+}
