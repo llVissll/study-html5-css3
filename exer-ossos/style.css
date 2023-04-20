@@ -52,7 +52,7 @@ p.resp3{
 main{
     background-color: white;
     width: 320px;
-    height: 870px;
+    height: 940px;
     margin: 20px auto 0px auto;
 }
 img{
@@ -87,6 +87,17 @@ button:hover{
     color: white;
 }
 
+span.material-symbols-outlined{
+    font-size: 1.3em;
+ 
+}
+
+div{
+    display: flex;
+}
+div.spans{
+    display: none;
+}
 
 
 /* rodape */
@@ -106,10 +117,17 @@ footer{
 @media screen and (min-width: 750px){
     main{
         width: 600px;
-        height: 1190px;
+        height: 1300px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p#tit{
+        font-size: 1.2em;
+        width: 400px;
     }
     section{
-        width: 320px;
+        width: 350px;
         margin: auto;
     }
     input{
@@ -119,4 +137,9 @@ footer{
     div#butao{
         width: 600px;
     }
+    span.material-symbols-outlined{
+        font-size: 1.5em;
+    }
+   
+
 }
