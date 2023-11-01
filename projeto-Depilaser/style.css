@@ -114,6 +114,9 @@ p{
     font-style: italic;
     
 }
+p#valor{
+    font-weight: bold;
+}
 button{
     height: 35px;
     width: 155px;
@@ -155,13 +158,23 @@ footer{
 }
 
 @media screen and (max-width: 650px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.7em;
+        align-items: center;
+        justify-items: center;
+        height: 70px;
+        background-color: rgb(40, 111, 139);
+        width: 100%;
+    }
     #btn-mobile{
         display: block;
     }
     #menu{
         display: block;
         position: absolute;
-        top: 100px;
+        top: 70px;
         right: 0;
         left: 0;
         background-color: rgb(40, 111, 139);
@@ -176,7 +189,7 @@ footer{
     }
     nav.active #menu{
         visibility: visible;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 70px);
         overflow: auto;
         
     }
@@ -196,7 +209,7 @@ footer{
         grid-template-columns: 300px;
         gap: 5px;
         width: 300px;
-        height: 500px;
+        height: 450px;
         background-color: white;
         position: absolute;
         top: 50%;
@@ -207,6 +220,9 @@ footer{
         padding: 10px;
 
         
+    }
+    section#sec1{
+        height: 200px;
     }
     section#sec2{
         display: grid;
