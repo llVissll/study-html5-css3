@@ -194,8 +194,9 @@ footer{
     main{
         display: grid;
         grid-template-columns: 300px;
+        gap: 5px;
         width: 300px;
-        height: 600px;
+        height: 500px;
         background-color: white;
         position: absolute;
         top: 50%;
@@ -204,7 +205,14 @@ footer{
         justify-content: space-around;
         align-items: center;
         padding: 10px;
+
+        
     }
+    section#sec2{
+        display: grid;
+        gap: 15px;
+    }
+
 
     
     h1{
