@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 231, 231);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(40, 111, 139);
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#menu{
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+}
+#close{
+    display: none;
+}
+#menuzinho , #close{
+    position: relative;
+    top: 3px;
+    font-size: 1.5em;
+}
+li{
+    padding: 10px;
+
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(70, 65, 87);
+    border-radius: 10px;
+    
+}
+
+#btn-mobile{
+    display: none;
+    font-size: 0.8em;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+}
+#btn-mobile:hover{
+    cursor: pointer;
+   
+}
+ul#menu{
+    font-family: quicksand;
+    font-size: .9em;
+}
+a#logo{
+    font-family: quicksand;
+    font-size: .9em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 26px black;
+}
+
+/* CORPO DO SITE */
+
+main{
+    display: grid;
+    grid-template-columns: 500px 400px;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;
+}
+section#sec1{
+    border: .1px solid rgb(233, 232, 232);
+}
+section#sec2{
+    display: grid;
+    gap: 50px;
+}
+h1{
+    font-size: 2.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-size: 1.2em;
+    font-family: quicksand;
+    text-align: justify;
+    font-style: italic;
+    
+}
+button{
+    height: 35px;
+    width: 155px;
+    font-size: 1.2em;
+    background-color: rgb(40, 111, 139);
+    color: white;
+}
+button:hover{
+    background-color: rgb(18, 51, 65);
+    cursor: pointer;
+}
+div#btn{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+#botao a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+
+}
+
+@media screen and (max-width: 650px) {
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        left: 0;
+        background-color: rgb(40, 111, 139);
+        width: 100%;
+        height: 0;
+        transition: 1s;
+        visibility: hidden;
+        overflow-y: hidden;
+        z-index: 1000;
+        
+        
+    }
+    nav.active #menu{
+        visibility: visible;
+        height: calc(100vh - 100px);
+        overflow: auto;
+        
+    }
+    nav.active #menuzinho{
+        display: none;
+    }
+    nav.active #close{
+        display: block;
+    }
+    #menu li{
+        padding: 1rem;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgb(180, 180, 180);
+    }
+    main{
+        display: grid;
+        grid-template-columns: 300px;
+        width: 300px;
+        height: 600px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    
+    h1{
+        font-size: 1em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    p{
+        font-size: .8em;
+        font-family: quicksand;
+        text-align: justify;
+        font-style: italic;
+       
+    }
+    div#btn{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+}
+
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+    main{
+        display: grid;
+        grid-template-columns: 300px 400px;
+        width: 800px;
+        height: 370px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    h1{
+        font-size: 1.2em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    p{
+        font-size: 1em;
+        font-family: quicksand;
+        text-align: justify;
+        font-style: italic;
+       
+    }
+    div#btn{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+}
