@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(40, 111, 139);
+    width: 100%;
+}
+#menu{
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+}
+#close{
+    display: none;
+}
+#menuzinho , #close{
+    position: relative;
+    top: 3px;
+    font-size: 1.5em;
+}
+li{
+    padding: 10px;
+
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(70, 65, 87);
+    border-radius: 10px;
+    
+}
+
+#btn-mobile{
+    display: none;
+    font-size: 0.8em;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+}
+#btn-mobile:hover{
+    cursor: pointer;
+   
+}
+@media screen and (max-width: 650px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.7em;
+        align-items: center;
+        justify-items: center;
+        height: 70px;
+        background-color: rgb(40, 111, 139);
+        width: 100%;
+    }
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+        background-color: rgb(40, 111, 139);
+        width: 100%;
+        height: 0;
+        transition: 1s;
+        visibility: hidden;
+        overflow-y: hidden;
+        z-index: 1000;
+        
+        
+    }
+    nav.active #menu{
+        visibility: visible;
+        height: calc(100vh - 70px);
+        overflow: auto;
+        
+    }
+    nav.active #menuzinho{
+        display: none;
+    }
+    nav.active #close{
+        display: block;
+    }
+    #menu li{
+        padding: 1rem;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgb(180, 180, 180);
+    }}
