@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --cor01: #B189D9;
+    --cor02: #148C8C;
+    --cor03: #82D9C9;
+    --cor04: #F2CA52;
+    --cor05: #27431D;
+}
+
+body, html {
+    width: 100%;
+}
+
+h1{
+    margin: 30px 0px 30px 30px;
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+    border-radius: 10px;
+    text-indent: 10px;
+    font-family: kalam;   
+}
+
+div#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 1100px;
+    margin: 0 auto;
+}
+div.item img{
+    border-radius: 10px;
+    
+}
+img{
+    max-width: 100%;
+}
+
+/* tablet */
+@media screen and (min-width: 751px) and (max-width: 1150px){
+    div#container{
+        grid-template-columns: 1fr 1fr;
+        width: 700px;
+    }
+}
+
+
+/* mobile */
+@media screen and (max-width: 750px) {
+    h1{
+        font-size: 1.5em;
+    }
+    div#container{
+        grid-template-columns: 1fr;
+        width: 300px;
+    }
+}
