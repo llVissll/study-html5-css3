@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Kaushan+Script&family=Quicksand&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --cor01: #B189D9;
+    --cor02: #148C8C;
+    --cor03: #82D9C9;
+    --cor04: #F2CA52;
+    --cor05: #27431D;
+}
+
+body, html {
+    width: 100%;
+}
+header a#logo{
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+    font-family: kaushan script;
+    margin-left: 50px;
+    
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(to left, purple, pink, black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+#close{
+    display: none;
+}
+#menuzinho , #close{
+    position: relative;
+    top: 3px;
+    font-size: 1.5em;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.9em;
+    font-family: kaushan script;
+}
+li{
+    padding: 10px;
+    
+
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(61, 3, 95);
+    border-radius: 10px;
+    
+}
+
+#btn-mobile{
+    display: none;
+    font-size: 0.8em;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+}
+#btn-mobile:hover{
+    cursor: pointer;
+   
+}
+
+/* CORPO DO SITE */
+
+main{
+    background-color: black;
+    color: white;
+    height: 700PX;
+
+}
+div#allmain{
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    max-height: 650px;
+}
+#sec1{
+    width: 500px;
+    
+}
+#sec1 p{
+    font-size: 2.3em;
+    font-family: 'Kalam', cursive;
+    text-align: justify;
+    line-height: 48px;
+    
+}
+/*PARTE 2 CORPO*/
+
+section#apres{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    column-gap: 500px;
+    margin-top: 50px;
+}
+
+section#apres img{
+    max-height: 350px;
+}
+
+section#apres p{
+    font-size: 1.4em;
+    font-family: inter;
+    text-align: justify;
+}
+
+/* RODAPE */
+
+footer{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    
+}
+
+/* TELA PRO CELULAR */
+@media screen and (max-width: 650px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.7em;
+        align-items: center;
+        justify-items: center;
+        height: 70px;
+        background-color: rgb(40, 111, 139);
+        width: 100%;
+    }
+    header a#logo{
+        font-size: 1.3em;
+        margin-left: 35px;
+    }
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+        background-color: rgb(68, 41, 60);
+        width: 100%;
+        height: 0;
+        transition: 1s;
+        visibility: hidden;
+        overflow-y: hidden;
+        z-index: 1000;
+        
+        
+    }
+    nav.active #menu{
+        visibility: visible;
+        height: calc(100% - 70px);
+        overflow: auto;
+        
+    }
+    nav.active #menuzinho{
+        display: none;
+    }
+    nav.active #close{
+        display: block;
+    }
+    #menu li{
+        padding: 1rem;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgb(180, 180, 180);
+    }
+    li a{
+        font-size: 1em;
+    }
+
+
+    main{
+        background-color: black;
+        color: white;
+        height: 750px;
+    
+    }
+    div#allmain{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 500px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        max-width: 100%;
+        max-height: 500px;
+
+    }
+    #sec1{
+        width: 400px;
+        
+    }
+    #sec1 p{
+        font-size: 1.2em;
+        text-align: justify;
+        padding: 20px;
+        line-height: 30px;
+    }
+    #sec2{
+        display: flex;
+        justify-content: center;
+    }
+
+    section#apres{
+        display: grid;
+        grid-template-columns: 1fr;
+        order: 1;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        row-gap: 30px;
+    }
+    div#ordem1{
+        order: 0;
+    }
+    div#ordem2{
+        order: 5;
+    }
+    div#ordem3{
+        order: 3;
+    }
+    div#ordem4{
+        order: 4;
+    }
+    div#ordem5{
+        order: 5;
+    }
+    div#ordem6{
+        order: 6;
+    }
+    
+    section#apres img{
+        max-height: 300px;
+    }
+    
+    section#apres p{
+        font-size: 1.1em;
+        font-family: inter;
+        text-align: justify;
+    }
+
+    footer{
+        height: 20px;
+    }
+    footer a{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1000px){
+    header a#logo{
+        font-size: 2.3em;
+        margin-left: 10px;
+    }
+    li a{
+        font-size: 1.2em;
+        
+    }
+    #menu{
+        margin-right: 10px;
+    }
+
+    main{
+        background-color: black;
+        color: white;
+        height: 700PX;
+    
+    }
+    div#allmain{
+        display: flex;
+        justify-content: space-evenly;
+        height: 700px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    img{
+        max-width: 100%;
+        max-height: 590px;
+    }
+    #sec1{
+        width: 500px;
+        
+    }
+    #sec1 p{
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    section#apres{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        width: 600px;
+        margin: 0 auto;
+        column-gap: 100px;
+        margin-top: 50px;
+    }
+    
+    section#apres img{
+        max-height: 300px;
+    }
+    
+    section#apres p{
+        font-size: 1.1em;
+        font-family: inter;
+        text-align: justify;
+    }
+    footer{
+        height: 30px;
+    }
+    footer a{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    section#apres{
+        width: 800px;
+        column-gap: 100px;
+    }
+    
+    section#apres img{
+        max-height: 300px;
+    }
+    
+    section#apres p{
+        font-size: 1.1em;
+        font-family: inter;
+        text-align: justify;
+    }
+
+    footer{
+        height: 30px;
+    }
+    footer a{
+        font-size: 1.2em;
+    }
+}
