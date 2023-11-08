@@ -35,12 +35,14 @@ div#container{
 }
 div.item img{
     border-radius: 10px;
-    
 }
 img{
     max-width: 100%;
 }
-
+div.item{
+    border: 1px dashed gray;
+    border-radius: 10px;
+}
 /* tablet */
 @media screen and (min-width: 751px) and (max-width: 1150px){
     div#container{
@@ -53,10 +55,10 @@ img{
 /* mobile */
 @media screen and (max-width: 750px) {
     h1{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     div#container{
         grid-template-columns: 1fr;
-        width: 300px;
+        width: 250px;
     }
 }

@@ -211,7 +211,7 @@ footer a{
     main{
         background-color: black;
         color: white;
-        height: 750px;
+        height: 800px;
     
     }
     div#allmain{
@@ -234,7 +234,7 @@ footer a{
     #sec1 p{
         font-size: 1.2em;
         text-align: justify;
-        padding: 20px;
+        padding: 30px;
         line-height: 30px;
     }
     #sec2{
