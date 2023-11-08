@@ -121,6 +121,15 @@ section#apres{
     row-gap: 50px;
     margin-top: 50px;
 }
+section#apres h2{
+    font-family: 'Kalam', cursive;
+    font-size: 2.3em;
+    background-image: linear-gradient(to right, skyblue, transparent);
+    border-radius: 15px;
+    text-indent: 7px;
+    margin-bottom: 10px;
+    
+}
 
 section#apres img{
     max-height: 350px;
@@ -274,6 +283,10 @@ footer a{
     section#apres img{
         max-height: 300px;
     }
+
+    section#apres h2{
+        font-size: 1.5em;
+    }
     
     section#apres p{
         font-size: 1.1em;
@@ -338,7 +351,9 @@ footer a{
         column-gap: 100px;
         margin-top: 50px;
     }
-    
+    section#apres h2{
+        font-size: 1.6em;
+    }
     section#apres img{
         max-height: 300px;
     }
@@ -370,6 +385,9 @@ footer a{
         font-size: 1.1em;
         font-family: inter;
         text-align: justify;
+    }
+    section#apres h2{
+        font-size: 1.6em;
     }
 
     footer{
