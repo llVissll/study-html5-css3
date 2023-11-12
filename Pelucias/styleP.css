@@ -140,7 +140,12 @@ section#apres p{
     font-family: inter;
     text-align: justify;
 }
-
+span.indisponivel{
+    color: red;
+}
+span.disponivel{
+    color: green;
+}
 /* RODAPE */
 
 footer{
