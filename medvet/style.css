@@ -72,7 +72,7 @@ div#dadosAnimal3{
     grid-template-columns: 1fr 1fr;
     gap: 5px;
 }
-div h3#anam{
+div h3.anam{
     display: grid;
     text-align: center;
 }
@@ -87,4 +87,51 @@ textarea{
 div#dadosAnimal4{
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 10px;
+}
+
+div p.perguntas{
+    margin-bottom: 5px;
+}
+div#edit{
+    margin-bottom: 5px;
+}
+
+div#dadosExame{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+div#tratas{
+margin: 10px 0px;
+}
+
+div#conclusao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+h3.fim{
+    text-align: center;
+}
+
+div#btn{
+    display: grid;
+    justify-content: center;
+    margin: 15px 0px 10px 0px;
+}
+
+div#btn input{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(230, 197, 230);
+    font-size: 1em;
+}
+
+div#btn input:hover{
+    cursor: pointer;
+    background-color: rgb(151, 126, 151);
+    color: white;
 }
